@@ -1,0 +1,222 @@
+
+//Classes for color
+.color_primary {
+	color: $primary_color;
+	&--imp {
+		@extend .color_primary;
+		color: $primary_color !important;
+	}
+}
+
+.color_secondary {
+	color: $secondary_color !important;
+	&--imp {
+		@extend .color_secondary;
+		color: $secondary_color !important;
+	}
+}
+.color_tertiary {
+	color: $tertiary_color !important;
+	&--imp {
+		@extend .color_tertiary;
+		color: $tertiary_color !important;
+	}
+}
+.color_quaternary {
+	color: $quaternary_color;
+	&--imp {
+		@extend .color_quaternary;
+		color: $quaternary_color !important;
+	}
+}
+.true_white {
+	color: $true_white;
+	&--imp {
+		@extend .true_white;
+		color: $true_white !important;
+	}
+}
+
+.true_black {
+	color: $true_black!important;
+	&--imp {
+		@extend .true_black;
+		color: $true_black !important;
+	}
+}
+.stars_color {
+	color: $stars_color;
+	&--imp {
+		@extend .stars_color;
+		color: $stars_color !important;
+	}
+}
+
+
+
+
+
+//Classes for bg color
+.color_primary_bg {
+	background-color: $primary_color;
+}
+
+
+.color_secondary_bg {
+	background-color: $secondary_color;
+}
+
+.color_tertiary_bg {
+	background-color: $tertiary_color;
+}
+.color_callbtn {
+	background-color: $callbtn_bg_background_color;
+}
+.color_quaternary_bg {
+	background-color: $quaternary_color;
+}
+
+.true_white_bg {
+	background-color: $true_white;
+}
+
+.true_black_bg {
+	background-color: $true_black;
+}
+
+.stars_color_bg {
+	background-color: $stars_color;
+}
+.color_financing_bg {
+	background-color: $financing_bg_color;
+}
+.e-preview--show-hidden-elements{
+.true_white {
+	color: var(--e-global-color-true_white) !important;
+	&--imp {
+		@extend .true_white;
+		color: var(--e-global-color-true_white) !important;
+	}
+}
+
+.true_black {
+	color: var(--e-global-color-true_black) !important;
+	&--imp {
+		@extend .true_black;
+		color: var(--e-global-color-true_black) !important;
+	}
+}
+.stars_color {
+	color: var(--e-global-color-stars_color);
+	&--imp {
+		@extend .stars_color;
+		color: var(--e-global-color-stars_color) !important;
+	}
+}
+
+.color_primary_bg {
+    background-color: var(--e-global-color-primary);
+}
+.color_secondary_bg {
+    background-color: var(--e-global-color-secondary);
+}
+.color_tertiary_bg {
+    background-color: var(--e-global-color-tertiary);
+}
+.color_quaternary_bg {
+    background-color: var(--e-global-color-quaternary);
+}
+.stars_color_bg {
+	background-color: var(--e-global-color-stars_color);
+}
+.true_black_bg {
+	background-color: var(--e-global-color-true_black);
+}
+.true_white_bg {
+	background-color: var(--e-global-color-true_white);
+}
+}
+//Classes for hover color
+.color_primary_hover {
+	&:hover {
+		color: $primary_color !important;
+	}
+}
+.color_secondary_hover {
+	&:hover {
+		color: $secondary_color !important;
+	}
+}
+
+.color_tertiary_hover {
+	&:hover {
+		color: $tertiary_color !important;
+	}
+}
+
+.color_quaternary_hover {
+	&:hover {
+		color: $quaternary_color !important;
+	}
+}
+
+.true_white_hover {
+	&:hover {
+		color: $true_white !important;
+	}
+}
+
+.true_black_hover {
+	&:hover {
+		color: $true_black !important;
+	}
+}
+
+.stars_color_hover {
+	&:hover {
+		color: $stars_color !important;
+	}
+}
+
+
+//Classes for hover bg color
+.color_primary_hover_bg {
+	&:hover {
+		background-color: $primary_color;
+	}
+}
+
+.color_secondary_hover_bg {
+	&:hover {
+		background-color: $secondary_color;
+	}
+}
+
+.color_tertiary_hover_bg {
+	&:hover {
+		background-color: $tertiary_color;
+	}
+}
+
+.color_quaternary_hover_bg {
+	&:hover {
+		background-color: $quaternary_color;
+	}
+}
+
+.true_white_hover_bg {
+	&:hover {
+		background-color: $true_white;
+	}
+}
+.stars_color_hover_bg {
+	&:hover {
+		background-color: $stars_color;
+	}
+}
+
+.true_black_hover_bg {
+	&:hover {
+		background-color: $true_black;
+	}
+}

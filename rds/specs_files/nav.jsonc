@@ -1,0 +1,482 @@
+{
+    "spec_file": {
+        "rds_version": "4.0",
+        "version": "1.5"
+    },
+    "nav": [{
+
+            "type": "desktop",
+            "label": "main-menu",
+            "is_primary": true,
+            "items": [{
+                    "label": "Service 1",
+                    "slug": "/service-subpage-sidebar/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class",
+                    "items": [{
+                            "label": "Job Class 1",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Job Class 2",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Job Class 3",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        }
+                    ]
+                },
+                {
+                    "label": "Service 2",
+                    "slug": "/#/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class",
+                    "items": [{
+                            "label": "Job Class 1",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Job Class 2",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Job Class 3",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        }
+                    ]
+                }, {
+                    "label": "Service 3",
+                    "slug": "/#/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class",
+                    "items": [{
+                            "label": "Job Class 1",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Job Class 2",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Job Class 3",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        }
+                    ]
+                },
+
+                {
+                    "label": "About",
+                    "slug": "/about-us/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class",
+                    "items": [{
+                            "label": "Deals",
+                            "slug": "/our-promotions/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Blog",
+                            "slug": "/blog/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Reviews",
+                            "slug": "/reviews/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Financing",
+                            "slug": "/financing/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Careers",
+                            "slug": "/careers/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "History",
+                            "slug": "/history/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Team",
+                            "slug": "/meet-the-team/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Gallery",
+                            "slug": "/our-gallery/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        }
+                    ]
+                },
+                {
+                    "label": "CONTACT",
+                    "slug": "/contact-us-today/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class",
+                    "items": [{
+                            "label": "Schedule Service",
+                            "slug": "/schedule-service/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Free Estimate",
+                            "slug": "/free-estimate/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "mobile",
+            "label": "mobile-main-menu",
+            "is_primary": true,
+            "items": [{
+                    "label": "Service 1",
+                    "slug": "/service-subpage-sidebar/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class",
+                    "items": [{
+                            "label": "Job Class 1",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Job Class 2",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Job Class 3",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        }
+                    ]
+                },
+                {
+                    "label": "Service 2",
+                    "slug": "/#/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class",
+                    "items": [{
+                            "label": "Job Class 1",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Job Class 2",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Job Class 3",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        }
+                    ]
+                }, {
+                    "label": "Service 3",
+                    "slug": "/#/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class",
+                    "items": [{
+                            "label": "Job Class 1",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Job Class 2",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Job Class 3",
+                            "slug": "/service-subpage-sidebar/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        }
+                    ]
+                },
+
+                {
+                    "label": "About",
+                    "slug": "/about-us/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class",
+                    "items": [{
+                            "label": "Deals",
+                            "slug": "/our-promotions/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Blog",
+                            "slug": "/blog/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Reviews",
+                            "slug": "/reviews/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Financing",
+                            "slug": "/financing/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Careers",
+                            "slug": "/careers/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "History",
+                            "slug": "/history/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Team",
+                            "slug": "/meet-the-team/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Gallery",
+                            "slug": "/our-gallery/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        }
+                    ]
+                },
+                {
+                    "label": "CONTACT",
+                    "slug": "/contact-us-today/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class",
+                    "items": [{
+                            "label": "Schedule Service",
+                            "slug": "/schedule-service/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        },
+                        {
+                            "label": "Free Estimate",
+                            "slug": "/free-estimate/",
+                            "target": "_self",
+                            "custom": false,
+                            "class": "custom-class"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "footer menu one",
+            "label": "service",
+            "is_primary": false,
+            "items": [{
+                    "label": "Service 1",
+                    "slug": "/service-subpage-sidebar/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class"
+                },
+                {
+                    "label": "Service 2",
+                    "slug": "/service-subpage-sidebar/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class"
+                },
+                {
+                    "label": "Service 3",
+                    "slug": "/service-subpage-sidebar/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class"
+                }
+            ]
+        },
+        {
+            "type": "footer menu two",
+            "label": "our company",
+            "is_primary": false,
+            "items": [{
+                    "label": "About Us1",
+                    "slug": "/about-us2/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class1"
+                },
+                {
+                    "label": "Our Team2",
+                    "slug": "/meet-the-team2/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class2"
+                },
+                {
+                    "label": "Careers3",
+                    "slug": "/careers/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class"
+                },
+                {
+                    "label": "History3",
+                    "slug": "/history/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class"
+                },
+                {
+                    "label": "Blog",
+                    "slug": "/blog/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class"
+                },
+                {
+                    "label": "Contact Us",
+                    "slug": "/contact-us-today/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class"
+                }
+            ]
+        },
+        {
+            "type": "404 page",
+            "label": "404",
+            "is_primary": false,
+            "items": [{
+                    "label": "ABOUT US",
+                    "slug": "/about-us/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class"
+                },
+                {
+                    "label": "SERVICES",
+                    "slug": "https://www.google.com/",
+                    "target": "_self",
+                    "custom": true
+                },
+                {
+                    "label": "HEATING",
+                    "slug": "/about-us/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class"
+                },
+                {
+                    "label": "BLOG",
+                    "slug": "/blog/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class"
+                },
+                {
+                    "label": "CONTACT",
+                    "slug": "/contact-us/",
+                    "target": "_self",
+                    "custom": false,
+                    "class": "custom-class"
+                }
+            ]
+        }
+
+    ]
+}

@@ -1,0 +1,30 @@
+/*
+Theme Name: Polaris RDS
+Theme URI: https://github.com/ESBlueCorona/bc-rds
+Author: Polaris RDS Team
+Author URI: https://polaris-rds.com
+GitHub Theme URI: https://github.com/ESBlueCorona/bc-rds
+Description: The Polaris RDS Theme features custom Elementor widgets and includes a specification file designed to manage all data navigation and design tracking seamlessly. Users can update site data using Elementor or through the specification files, eliminating the need to modify the base code.
+Version: 4.1.16
+Requires at least: 5.0
+Tested up to: 6.5.2
+Requires PHP: 8.2.18
+Text Domain: polaris-rds
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Compatible Plugins:
+- Elementor: https://elementor.com
+- Polaris Configuration - https://github.com/ESBlueCorona/bc-rds
+- Polaris Setting - https://github.com/ESBlueCorona/bc-rds
+- Gravity Form: https://github.com/ESBlueCorona/bc-rds
+Polaris RDS WordPress Theme, (C) 2024 Everservice.
+
+Resource Licenses:
+Font Awesome: https://fontawesome.com/v4.7/license/ (Font: SIL OFL 1.1, (S)CSS: MIT)
+Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
+WP Bootstrap Navwalker by Edward McIntyre & William Patton: https://github.com/twittem/wp-bootstrap-navwalker (GNU GPLv3)
+
+Do not modify the parent Polaris RDS theme. Instead, download a copy of the Polaris RDS Child starter theme and do all your development within the child theme.
+*/
+ 

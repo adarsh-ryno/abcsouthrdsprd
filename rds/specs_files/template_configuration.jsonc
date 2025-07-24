@@ -1,0 +1,946 @@
+{
+    "spec_file": {
+        "rds_version": "4.0",
+        "version": "1.5"
+    },
+    "site_info": {
+        "company_name": "[ Insert Company Name ]",
+        "address_heading":"Address",
+        "address": [
+            {
+                "address": "MAIN: 1234 Address St",
+                "city": "city",
+                "state": "state",
+                "zip": "10939",
+                "map_directions_link": "#"
+            },
+            {
+                "address": "SOUTHEND: 1234 Address St",
+                "city": "city",
+                "state": "state",
+                "zip": "10939",
+                "map_directions_link": "#"
+            }
+        ],
+        "search_box": {
+            "icon_class": "seach-icon",
+            "placeholder": "search",
+            "button_text": "search"
+        },
+        "country_code": "",
+        "phone": "(555) 555-5555",
+        "fax": "(267) 478 4384",
+        "license_number": [
+            "6872920-92828",
+            "6872920-58685",
+            "6872920-58685"
+        ],
+        "hours_heading":"Hours of Operation",
+        "weekday_hours": "8AM – 5PM",
+        "week_days": "Monday - Friday",
+        "weekend_hours": "8AM - 1PM",
+        "weekend_days": "Saturday",
+        "disclaimer_text": "The information on this website is for informational purposes only; it is deemed accurate but not guaranteed. It does not constitute professional advice. All information is subject to change at any time without notice. <a class='a' href='/contact-us-today/'>Contact us</a>   for complete details.",
+        "copyright_title": "Lorem Ipsum Ipsum",
+        "bluecorona_branding": true,
+        "bluecorona_link": "https://rynoss.com/?utm_source=RYNO+Built+Website&utm_medium=Referral&utm_campaign=Client_Website_Footer_Backlink",
+        "privacy_policy_link": "/privacy-policy",
+        "heading": "Follow Us",
+        "social_media": {
+                    "items": [
+                        {
+                            "icon_class": "icon-facebook-square",
+                            "url": "#"
+                        },
+                        {
+                            "icon_class": "icon-instagram",
+                            "url": "#"
+                        },
+                        {
+                            "icon_class": "icon-linkedin",
+                            "url": "#"
+                        },
+                        {
+                            "icon_class": "icon-twitter",
+                            "url": "#"
+                        }
+                    ]
+                }
+
+    },
+    "page_templates": {
+        "homepage": {
+            "enable": true,
+            "we_are_hiring": {
+                "heading": "We're Hiring",
+                "subheading": "Join Our Growing Team",
+                "button_text": "Learn More",
+                "button_link": "/careers"
+            },
+            "seo_section": {
+                "variation": "a",
+                "heading": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit",
+                "subheading": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit",
+                "before_read_more_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod nisi, cursus at ultricies a. Auctor turpis amet sagittis nunc, vel blandit amet ultrices. Lorem tellus egestas volutpat tortor aenean vel. Iaculis purus sed platea non vitae auctor. Fames feugiat sed tristique accumsan nec turpis facilisis posuere sem. Tristique netus integer sed pellentesque. Euismod pulvinar sagittis amet, sodales. Quisque pretium porta est dui sit vel quis id amet. Sit mattis pharetra, sapien, vel mi sem duis. Euismod elementum, odio neque ac nullam. Tristique scelerisque mi placerat quis in in. Est velit ultrices id sed libero senectus id sed. Sed adipiscing nec vel erat tellus.",
+                "after_read_more_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod nisi, cursus at ultricies a. Auctor turpis amet sagittis nunc, vel blandit amet ultrices. Lorem tellus egestas volutpat tortor aenean vel. Iaculis purus sed platea non vitae auctor. Fames feugiat sed tristique accumsan nec turpis facilisis posuere sem. Tristique netus integer sed pellentesque. Euismod pulvinar sagittis amet, sodales. Quisque pretium porta est dui sit vel quis id amet. Sit mattis pharetra, sapien, vel mi sem duis. Euismod elementum, odio neque ac nullam. Tristique scelerisque mi placerat quis in in. Est velit ultrices id sed libero senectus id sed. Sed adipiscing nec vel erat tellus."
+            }
+        },
+        "subpage_sidebar": {
+            "enable": true
+        },
+        "contact_page": {
+            "variation": "b",
+            "gravity_form_id": "1",
+            "address_heading": "Address",
+            "hours_heading": "Hours of Operation",
+            "content":"Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit"
+        },
+        "subpage": {
+            "banner": {
+                "variation": "b",
+                "heading": "Lorem Ipsum Dolor",
+                "subheading": "Lorem Ipsum Dolor Sit Amet",
+                "button_text": "Deals & Financing",
+                "button_link": "/our-promotions/"
+            },
+            "sidebar": {
+                "banner": {
+                    "variation": "b",
+                    "heading": "Lorem Ipsum Dolor",
+                    "subheading": "Lorem Ipsum Dolor Sit Amet",
+                    "button_text": "Deals & Financing",
+                    "button_link": "/specials"
+                },
+                "request_service": {
+                    "variation": "b",
+                    "heading": "Request Service",
+                    "subheading": "Lorem Ipsum Dolor",
+                    "gravity_form_id": "2"
+                },
+               "promotion": {
+                    "variation": "b",
+                    "heading": "Deals & Financing",
+                    "button_text": "See all coupons",
+                    "button_link": "/promotions",
+                    "popup_form_heading": "Redeem Offer",
+                    "popup_form_subheading": "Your Promotional Selection Has Been Applied!",
+                    "popup_gravity_form_id": "2",
+                    "category_filter": [
+                        "all"
+                    ]
+                },
+                "financing": {
+                    "heading": "[ Insert Financing percentage Rate + Months Offer ]",
+                    "subheading": "Same Day Approval",
+                    "button_text": "Learn More",
+                    "button_link": "/easy"
+                }
+            }
+        },
+        "blog": {
+            "sidebar": {
+                "financing": {
+                    "heading": "[ Insert Financing percentage Rate + Months Offer ]",
+                    "subheading": "Same Day Approval",
+                    "button_text": "Learn More",
+                    "button_link": "/easy"
+                }
+            }
+        },
+        "service_subpage": {
+            "banner": {
+                "variation": "b",
+                "heading": "Lorem Ipsum Dolor",
+                "subheading": "Lorem Ipsum Dolor Sit Amet",
+                "button_text": "Deals & Financing",
+                "button_link": "/our-promotions/" 
+            },
+            "services": {
+                "title": "Our Services"
+            },
+            "sidebar": {
+                "request_service": {
+                    "variation": "b",
+                    "heading": "Request Service",
+                    "subheading": "Lorem Ipsum Dolor",
+                    "gravity_form_id": "2"
+                }
+            },
+            "financing": {
+                "variation": "a",
+                "heading": "Lorem Ipsum Gen Dolor",
+                "subheading": "Ipsum Gen",
+                "button_text": "LEARN MORE",
+                "button_link": "/contact-us-today/"
+            }
+        },
+        "thankyou_page": {
+            "variation": "b",
+            "middle_content": "We are processing your request. You will receive a confirmation email shortly.",
+            "scroll_button_text": "SAVE ON YOUR NEXT SERVICE!",
+            "affiliation_heading": "Trusted By",
+            "promotions": {
+                "heading": "Save On Your Next Service!",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci.",
+                "button_text": "View all promotions",
+                "button_link": "/contact"
+            }
+        },
+        "gallery_page": { 
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci."
+        },
+        "testimonial_page": {
+            "variation": "c",
+            "subheading": "See What Your Neighbors Are Saying",
+            "category_filter": [
+                "all"
+            ]
+        },
+        "promotions": {
+            "subpage_sidebar": false,
+            "variation": "a",
+            "popup_form_heading": "Redeem Offer",
+            "popup_form_subheading": "Your Promotional Selection Has Been Applied!",
+            "popup_gravity_form_id": "9",
+            "category_filter": [
+                "all"
+            ]
+        },
+        "team_page": {
+            "subheading": "Lorem Ipsum Gen",
+
+            "posts": [
+                {
+                    "title": "Jane Doe First",
+                    "position": "CEO",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci."
+                },
+                {
+                    "title": "Jane Doe Second",
+                    "position": "CFO",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci."
+                },
+                {
+                    "title": "Jane Doe Third",
+                    "position": "CFO & CEO",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci."
+                }
+
+            ]
+        },
+        "schedule_service_page": {
+            "first_icon_class": "icon-pen-to-square2",
+            "first_title": "Information",
+            "first_description": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit.",
+            "second_icon_class": "icon-user-headset1",
+            "second_title": "Confirmation",
+            "second_description": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit.",
+            "third_icon_class": "icon-truck-fast4",
+            "third_title": "Dispatch",
+            "third_description": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit.",
+            "gravity_form_id": "8"
+        },
+        "free_estimate_page": {
+            "first_icon_class": "icon-pen-to-square2",
+            "first_title": "Information",
+            "first_description": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit.",
+            "second_icon_class": "icon-user-headset1",
+            "second_title": "Confirmation",
+            "second_description": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit.",
+            "third_icon_class": "icon-truck-fast4",
+            "third_title": "Dispatch",
+            "third_description": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit.",
+            "gravity_form_id": "7"
+        },
+        "finance_page": {
+            "heading": "Need Financing?",
+            "subheading": "Buy Today, Pay Over Time",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod nisi, cursus at ultricies a. Auctor turpis amet sagittis nunc, vel blandit amet ultrices. Lorem tellus egestas volutpat tortor aenean vel. Iaculis purus sed platea non vitae auctor. Fames feugiat sed tristique accumsan nec turpis facilisis posuere sem. Tristique netus integer sed pellentesque. Euismod pulvinar sagittis amet, sodales.",
+            "button_text": "Learn More ",
+            "button_link": "",
+            "target": "_blank",
+            "gravity_form_heading": "Free Estimate",
+            "gravity_form_id": "7",
+            "affiliation": {
+                "variation": "b",
+                "count": "5"
+            },
+            "company_services": {
+                "heading": "Lorem Ipsum Dolor",
+                "subheading": "Consectetur Sit Amet",
+                "button_text": "Learn More ",
+                "button_link": "",
+                "target": false,
+                "description_html_allowed": "<ul><li > Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li><li >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> <li  > Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li><li >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> <li  > Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li><li >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> </ul>"
+                
+            },
+            "middle_content":{
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna quisque sapien ac sociis et ut praesent justo. Nisl a et vulputate neque, faucibus donec suspendisse. Laoreet laoreet consectetur est id. Enim ultricies aenean maecenas mattis lacus. Nisl montes, nunc lacus vitae mi gravida. Sit congue aenean eu vulputate ut eget. <br><br>Adipiscing sed ultrices adipiscing cursus fames blandit sed amet. Scelerisque sollicitudin pretium vulputate sem egestas consequat. Tellus placerat quis sit sollicitudin augue aliquam, quis. Imperdiet dui sed eu tempus eget orci, diam. Nulla suspendisse sollicitudin et nulla quisque quis pulvinar. Vitae quis enim enim iaculis duis ut. Libero maecenas ornare nulla id diam nibh. Lacinia ut venenatis purus id."
+        },
+        "accordion": [
+            {
+                "question": "",
+                "content": ""
+            }
+
+        ]
+            
+        },
+        "history_page": {
+            "enable": true,
+            "seo_section": {
+                "variation": "d",
+                "heading": "Our History",
+                "subheading": "Get to know who we are",
+                "before_read_more_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod nisi, cursus at ultricies a. Auctor turpis amet sagittis nunc, vel blandit amet ultrices. Lorem tellus egestas volutpat tortor aenean vel. Iaculis purus sed platea non vitae auctor. Fames feugiat sed tristique accumsan nec turpis facilisis posuere sem. Tristique netus integer sed pellentesque. Euismod pulvinar sagittis amet, sodales. Quisque pretium porta est dui sit vel quis id amet. Sit mattis pharetra, sapien, vel mi sem duis. Euismod elementum, odio neque ac nullam. Tristique scelerisque mi placerat quis in in. Est velit ultrices id sed libero senectus id sed. Sed adipiscing nec vel erat tellus.",
+                "after_read_more_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod nisi, cursus at ultricies a. Auctor turpis amet sagittis nunc, vel blandit amet ultrices. Lorem tellus egestas volutpat tortor aenean vel. Iaculis purus sed platea non vitae auctor. Fames feugiat sed tristique accumsan nec turpis facilisis posuere sem. Tristique netus integer sed pellentesque. Euismod pulvinar sagittis amet, sodales. Quisque pretium porta est dui sit vel quis id amet. Sit mattis pharetra, sapien, vel mi sem duis. Euismod elementum, odio neque ac nullam. Tristique scelerisque mi placerat quis in in. Est velit ultrices id sed libero senectus id sed. Sed adipiscing nec vel erat tellus."
+            },
+            "tab_section": {
+                "items": [
+                    {
+                        "title": "1976",
+                        "heading": "Apple I",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci. Sed hendrerit, urna eget consectetur lobortis, enim quam cursus ex, eget mollis ante enim in libero. <br><br>Nulla rutrum, orci ut finibus blandit, orci nisi feugiat erat, sit amet rutrum ipsum mi ut sem. Donec libero massa, euismod a ultrices quis, lobortis sit amet sem. Nullam orci est, efficitur non aliquam in, convallis id turpis."
+                    },
+                    {
+                        "title": "1976",
+                        "heading": "Apple I",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci. Sed hendrerit, urna eget consectetur lobortis, enim quam cursus ex, eget mollis ante enim in libero. <br><br>Nulla rutrum, orci ut finibus blandit, orci nisi feugiat erat, sit amet rutrum ipsum mi ut sem. Donec libero massa, euismod a ultrices quis, lobortis sit amet sem. Nullam orci est, efficitur non aliquam in, convallis id turpis."
+                    },
+                    {
+                        "title": "1976",
+                        "heading": "Apple I",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci. Sed hendrerit, urna eget consectetur lobortis, enim quam cursus ex, eget mollis ante enim in libero. <br><br>Nulla rutrum, orci ut finibus blandit, orci nisi feugiat erat, sit amet rutrum ipsum mi ut sem. Donec libero massa, euismod a ultrices quis, lobortis sit amet sem. Nullam orci est, efficitur non aliquam in, convallis id turpis."
+                    },
+                    {
+                        "title": "1976",
+                        "heading": "Apple I",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci. Sed hendrerit, urna eget consectetur lobortis, enim quam cursus ex, eget mollis ante enim in libero. <br><br>Nulla rutrum, orci ut finibus blandit, orci nisi feugiat erat, sit amet rutrum ipsum mi ut sem. Donec libero massa, euismod a ultrices quis, lobortis sit amet sem. Nullam orci est, efficitur non aliquam in, convallis id turpis."
+                    },
+                    {
+                        "title": "1976",
+                        "heading": "Apple I",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci. Sed hendrerit, urna eget consectetur lobortis, enim quam cursus ex, eget mollis ante enim in libero. <br><br>Nulla rutrum, orci ut finibus blandit, orci nisi feugiat erat, sit amet rutrum ipsum mi ut sem. Donec libero massa, euismod a ultrices quis, lobortis sit amet sem. Nullam orci est, efficitur non aliquam in, convallis id turpis."
+                    }
+                ]
+            },
+            "in_content_cta": {
+                "heading": "24/7 Emergency",
+                "button_text": "schedule online",
+                "button_link": "/contact"
+            },
+            "middle_content": "<h3>Heading Three Goes Here</h3><ul> <li >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius cras turpis integer nunc, id elementum, sollicitudin amet congue. Nunc, est, nibh nunc sed vel justo, a. Risus proin quis.</li><li >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius cras turpis integer nunc, id elementum, sollicitudin amet congue. Nunc, est, nibh nunc sed vel justo, a. Risus proin quis.</li><li >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius cras turpis integer nunc, id elementum, sollicitudin amet congue. Nunc, est, nibh nunc sed vel justo, a. Risus proin quis.</li></ul>",
+            "accordion": [
+                {
+                    "question": "Accordion Heading",
+                    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non eu rhoncus natoque venenatis feugiat mollis. Sed purus quam arcu mauris sit turpis id id. Vitae turpis magnis in at eleifend. Aliquam amet enim eget.</p><p>Tortor duis cursus gravida ullamcorper. Donec aenean urna eget eget. Ullamcorper egestas est pellentesque sed. Aliquam amet enim eget neque, phasellus tortor ipsum fermentum, id. Sed sapien ut pellentesque est habitant nunc, ac.</p>"
+                },
+                {
+                    "question": "Accordion Heading",
+                    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non eu rhoncus natoque venenatis feugiat mollis. Sed purus quam arcu mauris sit turpis id id. Vitae turpis magnis in at eleifend. Aliquam amet enim eget.</p><p>Tortor duis cursus gravida ullamcorper. Donec aenean urna eget eget. Ullamcorper egestas est pellentesque sed. Aliquam amet enim eget neque, phasellus tortor ipsum fermentum, id. Sed sapien ut pellentesque est habitant nunc, ac.</p>"
+                },
+                {
+                    "question": "Accordion Heading",
+                    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non eu rhoncus natoque venenatis feugiat mollis. Sed purus quam arcu mauris sit turpis id id. Vitae turpis magnis in at eleifend. Aliquam amet enim eget.</p><p>Tortor duis cursus gravida ullamcorper. Donec aenean urna eget eget. Ullamcorper egestas est pellentesque sed. Aliquam amet enim eget neque, phasellus tortor ipsum fermentum, id. Sed sapien ut pellentesque est habitant nunc, ac.</p>"
+                }
+            ]
+        },
+        "about_us_page": {
+            "enable": true,
+            "seo_section": {
+                "variation": "b",
+                "heading": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit",
+                "subheading": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit",
+                "before_read_more_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod nisi, cursus at ultricies a. Auctor turpis amet sagittis nunc, vel blandit amet ultrices. Lorem tellus egestas volutpat tortor aenean vel. Iaculis purus sed platea non vitae auctor. Fames feugiat sed tristique accumsan nec turpis facilisis posuere sem. Tristique netus integer sed pellentesque. Euismod pulvinar sagittis amet, sodales. Quisque pretium porta est dui sit vel quis id amet. Sit mattis pharetra, sapien, vel mi sem duis. Euismod elementum, odio neque ac nullam. Tristique scelerisque mi placerat quis in in. Est velit ultrices id sed libero senectus id sed. Sed adipiscing nec vel erat tellus.",
+                "after_read_more_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod nisi, cursus at ultricies a. Auctor turpis amet sagittis nunc, vel blandit amet ultrices. Lorem tellus egestas volutpat tortor aenean vel. Iaculis purus sed platea non vitae auctor. Fames feugiat sed tristique accumsan nec turpis facilisis posuere sem. Tristique netus integer sed pellentesque. Euismod pulvinar sagittis amet, sodales. Quisque pretium porta est dui sit vel quis id amet. Sit mattis pharetra, sapien, vel mi sem duis. Euismod elementum, odio neque ac nullam. Tristique scelerisque mi placerat quis in in. Est velit ultrices id sed libero senectus id sed. Sed adipiscing nec vel erat tellus."
+            },
+            "meet_the_team":{
+                "heading":"Meet the team"
+            },
+            "middle_content": "<h3>Heading Three Goes Here</h3><ul> <li >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius cras turpis integer nunc, id elementum, sollicitudin amet congue. Nunc, est, nibh nunc sed vel justo, a. Risus proin quis.</li><li >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius cras turpis integer nunc, id elementum, sollicitudin amet congue. Nunc, est, nibh nunc sed vel justo, a. Risus proin quis.</li><li >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius cras turpis integer nunc, id elementum, sollicitudin amet congue. Nunc, est, nibh nunc sed vel justo, a. Risus proin quis.</li></ul>"
+        },
+        "landing_page": {
+            "banner": {
+                "heading": "Contact Us Today",
+                "subheading": "Who We are",
+                "content": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit. Ac morbi consequat morbi mi ut. Amet feugiat. Lorem ipsum dolor sit amet.",
+                "button_text": "Deals & Financing",
+                "variation": "a",
+                "button_link": "",
+                "gravity_form_id": "",
+                "form_heading": ""
+            },
+            "promotion": {
+                "variation": "b",
+                "popup_form_heading": "Redeem Offer",
+                "popup_form_subheading": "Your Promotional Selection Has Been Applied!",
+                "popup_gravity_form_id": "11",
+                "category_filter": [
+                    "all"
+                ]
+            },
+            "seo_section": {
+                "variation": "b",
+                "heading": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit",
+                "subheading": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit",
+                "before_read_more_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod nisi, cursus at ultricies a. Auctor turpis amet sagittis nunc, vel blandit amet ultrices. Lorem tellus egestas volutpat tortor aenean vel. Iaculis purus sed platea non vitae auctor. Fames feugiat sed tristique accumsan nec turpis facilisis posuere sem. Tristique netus integer sed pellentesque. Euismod pulvinar sagittis amet, sodales. Quisque pretium porta est dui sit vel quis id amet. Sit mattis pharetra, sapien, vel mi sem duis. Euismod elementum, odio neque ac nullam. Tristique scelerisque mi placerat quis in in. Est velit ultrices id sed libero senectus id sed. Sed adipiscing nec vel erat tellus.",
+                "after_read_more_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod nisi, cursus at ultricies a. Auctor turpis amet sagittis nunc, vel blandit amet ultrices. Lorem tellus egestas volutpat tortor aenean vel. Iaculis purus sed platea non vitae auctor. Fames feugiat sed tristique accumsan nec turpis facilisis posuere sem. Tristique netus integer sed pellentesque. Euismod pulvinar sagittis amet, sodales. Quisque pretium porta est dui sit vel quis id amet. Sit mattis pharetra, sapien, vel mi sem duis. Euismod elementum, odio neque ac nullam. Tristique scelerisque mi placerat quis in in. Est velit ultrices id sed libero senectus id sed. Sed adipiscing nec vel erat tellus."
+            },
+            "landing_seo_section": {
+                "variation": "c",
+                "heading": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit",
+                "subheading": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit",
+                "before_read_more_content": "Lorem ipsum dolor sit amet"
+            },
+            "footer": {
+                "variation": "b"
+            }
+        },
+        "career_page": {
+            "heading": "Join Our Team",
+            "subheading": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod nisi, cursus at ultricies a. Auctor turpis amet sagittis nunc, vel blandit amet ultrices. Lorem tellus egestas volutpat tortor aenean vel. Iaculis purus sed platea non vitae auctor. Fames feugiat sed tristique accumsan nec turpis facilisis posuere sem. Tristique netus integer sed pellentesque. Euismod pulvinar sagittis amet, sodales.",
+            "banner": {
+                "content": "Lorem ipsum  sit amet, consectetur adipiscing elit. Euismod nisi, cursus at ultricies a. Auctor turpis amet sagittis nunc, vel blandit amet ultrices.",
+                "button_text": "View open positions"
+            },
+            "position": {
+                "wp_job_board": false,
+                "heading": "Open Positions",
+                "button_text": "Apply now",
+                "button_link": "/job-application",
+                "posts": [
+                    {
+                        "title": "Position Role Title1",
+                        "location": "LOCATION",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id condimentum a tortor vel. Et et nulla mauris",
+                        "custom_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci."
+                    },
+                    {
+                        "title": "Position Role Title2",
+                        "location": "LOCATION",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id condimentum a tortor vel. Et et nulla mauris",
+                        "custom_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci."
+                    },
+                    {
+                        "title": "Position Role Title3",
+                        "location": "LOCATION",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id condimentum a tortor vel. Et et nulla mauris",
+                        "custom_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci."
+                    },
+                    {
+                        "title": "Position Role Title4",
+                        "location": "LOCATION",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id condimentum a tortor vel. Et et nulla mauris",
+                        "custom_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel molestie ante. Etiam elit justo, sodales vitae dapibus vel, lacinia sed est. Aenean justo eros, porta eget augue non, convallis venenatis orci."
+                    }
+                ]
+            },
+            "video": {
+                "heading": "Our Culture",
+                "items": [
+                    {
+                        "video_url": "https://www.youtube.com/embed/Mdip4k5xWrc?enablejsapi=1&rel=0"
+                    },
+                    {
+                        "video_url": "https://www.youtube.com/embed/Mdip4k5xWrc?enablejsapi=1&rel=0"
+                    },
+                    {
+                        "video_url": "https://www.youtube.com/embed/Mdip4k5xWrc?enablejsapi=1&rel=0"
+                    },
+                    {
+                        "video_url": "https://www.youtube.com/embed/Mdip4k5xWrc?enablejsapi=1&rel=0"
+                    }
+                ]
+            },
+            "perks": {
+                "variation": "a",
+                "items": [
+                    {
+                        "heading": "Competitive Wages",
+                        "icon": "icon-dollar-sign3",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "heading": "Paid Time Off",
+                        "icon": "icon-umbrella-beach1",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "heading": "401k with Matching",
+                        "icon": "icon-building-columns1",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "heading": "Career Growth",
+                        "icon": "icon-chart-line1",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "heading": "Health Insurance",
+                        "icon": "icon-dollar-sign3",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "heading": "Work Life Balance",
+                        "icon": "icon-scale-balanced2",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    }
+                ]
+            },
+            "faq": {
+                "heading": "FAQs",
+                "data": [
+                    {
+                        "question": "Accordion Heading",
+                        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non eu rhoncus natoque venenatis feugiat mollis. Sed purus quam arcu mauris sit turpis id id. Vitae turpis magnis in at eleifend. Aliquam amet enim eget.</p><p>Tortor duis cursus gravida ullamcorper. Donec aenean urna eget eget. Ullamcorper egestas est pellentesque sed. Aliquam amet enim eget neque, phasellus tortor ipsum fermentum, id. Sed sapien ut pellentesque est habitant nunc, ac.</p>"
+                    },
+                    {
+                        "question": "Accordion Heading",
+                        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non eu rhoncus natoque venenatis feugiat mollis. Sed purus quam arcu mauris sit turpis id id. Vitae turpis magnis in at eleifend. Aliquam amet enim eget.</p><p>Tortor duis cursus gravida ullamcorper. Donec aenean urna eget eget. Ullamcorper egestas est pellentesque sed. Aliquam amet enim eget neque, phasellus tortor ipsum fermentum, id. Sed sapien ut pellentesque est habitant nunc, ac.</p>"
+                    },
+                    {
+                        "question": "Accordion Heading",
+                        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non eu rhoncus natoque venenatis feugiat mollis. Sed purus quam arcu mauris sit turpis id id. Vitae turpis magnis in at eleifend. Aliquam amet enim eget.</p><p>Tortor duis cursus gravida ullamcorper. Donec aenean urna eget eget. Ullamcorper egestas est pellentesque sed. Aliquam amet enim eget neque, phasellus tortor ipsum fermentum, id. Sed sapien ut pellentesque est habitant nunc, ac.</p>"
+                    },
+                    {
+                        "question": "Accordion Heading",
+                        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non eu rhoncus natoque venenatis feugiat mollis. Sed purus quam arcu mauris sit turpis id id. Vitae turpis magnis in at eleifend. Aliquam amet enim eget.</p><p>Tortor duis cursus gravida ullamcorper. Donec aenean urna eget eget. Ullamcorper egestas est pellentesque sed. Aliquam amet enim eget neque, phasellus tortor ipsum fermentum, id. Sed sapien ut pellentesque est habitant nunc, ac.</p>"
+                    }
+                ]
+            },
+            "employee_Of_the_month": {
+                "variation": "a",
+                "heading": "Employee Of The Month",
+                "items": [
+                     {
+                        "name": "Brandon B",
+                        "month": "August",
+                        "position": "HVAC Specialist",
+                        "location": "Anytown",
+                        "state": "ST",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id condimentum a tortor vel. Et et nulla mauris, quam mattis tellus. Gravida morbi volutpat tristique praesent adipiscing nunc sit imperdiet. Sit mauris gravida ut rhoncus vel. Sed fermentum neque, ipsum aliquet. Venenatis purus est tincidunt sagittis...",
+                        "instagram_link": "",
+                        "facebook_link": ""
+                    },
+                    {
+                        "name": "Brandon B",
+                        "month": "August",
+                        "position": "HVAC Specialist",
+                        "location": "Anytown",
+                        "state": "ST",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id condimentum a tortor vel. Et et nulla mauris, quam mattis tellus. Gravida morbi volutpat tristique praesent adipiscing nunc sit imperdiet. Sit mauris gravida ut rhoncus vel. Sed fermentum neque, ipsum aliquet. Venenatis purus est tincidunt sagittis...",
+                        "instagram_link": "",
+                        "facebook_link": "/#"
+                    },
+                    {
+                        "name": "Brandon B",
+                        "month": "August",
+                        "position": "HVAC Specialist",
+                        "location": "Anytown",
+                        "state": "ST",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id condimentum a tortor vel. Et et nulla mauris, quam mattis tellus. Gravida morbi volutpat tristique praesent adipiscing nunc sit imperdiet. Sit mauris gravida ut rhoncus vel. Sed fermentum neque, ipsum aliquet. Venenatis purus est tincidunt sagittis...",
+                        "instagram_link": "/#",
+                        "facebook_link": "/#"
+                    }
+                ]
+            }
+        }
+    },
+    "globals": {
+        "404": {
+            "variation": "a",
+            "menu_name": "404"
+        },
+        "promotion": {
+            "variation": "a",
+            "title": "Our Deals",
+            "heading": "save on your next service",
+            "pagination": {
+                "variation": "b"
+            },
+            "category_filter": [
+                "all"
+            ],
+            "items": [
+                {
+                    "title": "$150 OFF",
+                    "post_id": 39722,
+                    "heading": "consectetur adipiscing elit",
+                    "subheading": "Lorem Ipsum Dolor",
+                    "button_label": "Redeem Offer",
+                    "button_link": "",
+                    "background_color_code": "#eeeee",
+                    "expiry_date": "07/28/2025",
+                    "last_date_of_month": "",
+                    "open_new_tab": "",
+                    "auto_renew": "1",
+                    "landing_page": "0",
+                    "no_expiry": "",
+                    "show_in_banner": "1",
+                    "disclaimer": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+                    "more_info": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+                    "category": [
+                        "hvac",
+                        "plumbing"
+                    ]
+                },
+                {
+                    "title": "$160 OFF",
+                    "post_id": 39721,
+                    "heading": "consectetur adipiscing elit",
+                    "subheading": "Lorem Ipsum Dolor",
+                    "button_label": "Redeem Offer",
+                    "button_link": "/contact-us-today/",
+                    "background_color_code": "#eeeee",
+                    "expiry_date": "08/28/2025",
+                    "last_date_of_month": "1",
+                    "open_new_tab": "1",
+                    "auto_renew": "1",
+                    "landing_page": "0",
+                    "no_expiry": "",
+                    "show_in_banner": "1",
+                    "disclaimer": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+                    "more_info": "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+                    "category": [
+                        "hvac",
+                        "plumbing"
+                    ]
+                }
+            ],
+            "button_text": "See all coupons",
+            "button_link": "/promotions",
+            "popup_form_heading": "Redeem Offer",
+            "popup_form_subheading": "Your Promotional Selection Has Been Applied!",
+            "popup_gravity_form_id": "9"
+        },
+        "blog": {
+            "variation": "a"
+        },
+        "announcement": {
+            "variation": "a",
+            "left": {
+                "icon_class": "icon-clock2",
+                "type": "hover",
+                "title": "24/7 Emergency Service",
+                "text": "24/7 Emergency Service",
+                "url": "/schedule-now",
+                "tooltip_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod nisi, cursus at ultricies a. Auctor turpis amet sagittis nunc, vel blandit amet ultrices. Lorem tellus egestas volutpat tortor aenean vel. Iaculis purus sed platea non vitae auctor. Fames feugiat sed tristique accumsan nec turpis <a href='tel:(555) 555-5555' class='text-uppercase text-decoration-none'>(555) 555-5555</a> facilisis posuere sem."
+            },
+            "middle": {
+                "icon_class": "icon-star1",
+                "type": "link",
+                "title": "Read Our Reviews",
+                "text": "Read Our Reviews",
+                "url": "/reviews"
+            },
+            "right": {
+                "icon_class": "icon-circle-dollar2",
+                "type": "link",
+                "title": "Deals & Financing",
+                "text": "Deals & Financing",
+                "url": "/our-promotions/"
+            },
+            "desktop_schedule_online_button": {
+                "enabled": true,
+                "type": "service_titan",
+                "url": "/schedule-service/",
+                "label": "Schedule Service",
+                "icon_class": "icon-calendar2"
+            }
+        },
+        "header": {
+            "variation": "a",
+            "call_text": "Call Today"
+        },
+        "hero": {
+            "variation": "d",
+            "heading": "[ Insert Company Name ]",
+            "subheading": "tag Line goes here",
+            "footer_text": "Main Service Area + List Main Services + Experts",
+            "button_text": "Deals & Financing",
+            "button_link": "/our-promotions/",
+            "form_heading": "Request Service",
+            "form_subheading": "",
+            "desktop_gravity_form_id": "3",
+            "mobile_gravity_form_id": "5",
+            "schedule_online": {
+                "type": "service_titan",
+                "url": "/schedule-service/",
+                "label": "schedule online",
+                "icon_class": "icon-chevron-right1"
+            }
+        },
+        "services": {
+            "top_border_class": "border-top-tertiary-lg-10",
+            "items": [
+                {
+                    "icon": "icon-fire-flame1",
+                    "title": "Service1",
+                    "link": "/service-subpage-sidebar/",
+                    "description": "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
+                },
+                {
+                    "icon": "icon-air-conditioner1",
+                    "title": "Service2",
+                    "link": "/service-subpage-sidebar/",
+                    "description": "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
+                },
+                {
+                    "icon": "icon-wind1",
+                    "title": "Service3",
+                    "link": "/service-subpage-sidebar/",
+                    "description": "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
+                },
+                {
+                    "icon": "icon-droplet2",
+                    "title": "Service4",
+                    "link": "/service-subpage-sidebar/",
+                    "description": "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
+                },
+                {
+                    "icon": "icon-droplet2",
+                    "title": "Service4",
+                    "link": "/service-subpage-sidebar/",
+                    "description": "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
+                }
+            ]
+        },
+        "discover_the_difference": {
+            "variation": "a",
+            "heading": "What To Expect",
+            "subheading": "Discover the [ Insert Company Name ] Difference",
+            "items": [
+                {
+                    "icon": "icon-users2",
+                    "title": "Satisfaction Guaranteed",
+                    "description": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit. Ac morbi consequat morbi mi ut. Amet feugiat."
+                },
+                {
+                    "icon": "icon-users2",
+                    "title": "Satisfaction Guaranteed",
+                    "description": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit. Ac morbi consequat morbi mi ut. Amet feugiat."
+                },
+                {
+                    "icon": "icon-users2",
+                    "title": "Satisfaction Guaranteed",
+                    "description": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit. Ac morbi consequat morbi mi ut. Amet feugiat."
+                },
+                {
+                    "icon": "icon-users2",
+                    "title": "Satisfaction Guaranteed",
+                    "description": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit. Ac morbi consequat morbi mi ut. Amet feugiat."
+                },
+                {
+                    "icon": "icon-users2",
+                    "title": "Satisfaction Guaranteed",
+                    "description": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit. Ac morbi consequat morbi mi ut. Amet feugiat."
+                },
+                {
+                    "icon": "icon-users2",
+                    "title": "Satisfaction Guaranteed",
+                    "description": "Lorem ipsum dolor sit amet, morbi et consectetur adipiscing elit. Ac morbi consequat morbi mi ut. Amet feugiat."
+                }
+            ],
+            "button_text": "ABOUT US test",
+            "button_link": "/about-us-test"
+        },
+        "request_service": {
+            "variation": "a",
+            "heading": "Request Service",
+            "gravity_form_id": "4"
+        },
+        "company_services": {
+            "heading": "Lorem ipsum dolor sit amet",
+            "subheading": "consectetur adipiscing elit",
+            "description_html_allowed": "<ul><li > Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li><li >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> <li  > Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li><li >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> <li  > Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li><li >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> </ul>",
+            "button_text": "learn more",
+            "button_link": "#"
+        },
+        "service_area": {
+            "variation": "a",
+            "heading": "Proudly Serving",
+            "subheading": "The Lorem Ipsum Area",
+            "description_html_allowed": "Lorem ipsum | Ipsum | Ipsum | Lorem ipsum | Lorem ipsum | Ipsum | Lorem ipsum | Ipsum",
+            "button_text": "View More",
+            "button_link": "/service-subpage-sidebar/",
+            "first_tab_title": "Nova & DC",
+            "first_tab_heading": "Proudly Serving",
+            "first_tab_description_html_allowed": "Lorem ipsum | Ipsum | Ipsum | Lorem ipsum | Lorem ipsum | Ipsum | Lorem ipsum | Ipsum",
+            "first_tab_button_text": "See More",
+            "first_tab_button_link": "/service-subpage/",
+            "second_tab_title": "Richmond Area",
+            "second_tab_heading": "Proudly Serving",
+            "second_tab_description_html_allowed": "Lorem ipsum | Ipsum | Ipsum | Lorem ipsum | Lorem ipsum | Ipsum | Lorem ipsum | Ipsum",
+            "second_tab_button_text": "See More",
+            "second_tab_button_link": "/service-subpage/",
+            "third_tab_title": "Maryland",
+            "third_tab_heading": "Proudly Serving",
+            "third_tab_description_html_allowed": "Lorem ipsum | Ipsum | Ipsum | Lorem ipsum | Lorem ipsum | Ipsum | Lorem ipsum | Ipsum",
+            "third_tab_button_text": "See More",
+            "third_tab_button_link": "/service-subpage/",
+            "fourth_tab_title": "West Virginia",
+            "fourth_tab_heading": "Proudly Serving",
+            "fourth_tab_description_html_allowed": "Lorem ipsum | Ipsum | Ipsum | Lorem ipsum | Lorem ipsum | Ipsum | Lorem ipsum | Ipsum",
+            "fourth_tab_button_text": "See More",
+            "fourth_tab_button_link": "/service-subpage/",
+            "multisite_service_area_option": false
+        },
+        "financing": {
+            "variation": "a",
+            "heading": "[ Insert Financing percentage Rate + Months Offer ]",
+            "subheading": "Same Day Approval",
+            "button_text": "Learn More",
+            "button_link": "/financing"
+        },
+        "in_content_cta": {
+            "variation": "a",
+            "icon_class": "fa-group",
+            "heading": "24/7 Emergency Service",
+            "button_text": "Schedule Service",
+            "title_class": "title-class",
+            "button_class": "button-class",
+            "telephone_class": "telephone-class",
+            "button_link": "/contact-us-today/",
+            "target": true,
+            "phone": "(555) 555-5555",
+            "id": "service_titan"
+        },
+        "affiliation": {
+            "variation": "a",
+            "count": "5"
+        },
+        "footer": { 
+            "variation": "a",
+             "enable": false,
+                "service_areas": [
+                    {
+                        "page_ids": [
+                            768,
+                            970
+                        ],
+                        "location_ids": [
+                            251,
+                            53,
+                            962
+                        ]
+                    },
+                    {
+                        "page_ids": [
+                            967
+                        ],
+                        "location_ids": [
+                            53,
+                            962
+                        ]
+                    },
+                    {
+                        "page_ids": [
+                            39729
+                        ],
+                        "location_ids": null
+                    }
+                ],
+            "data": {
+                "footer_menu_1_name": "service",
+                "footer_menu_1_heading": "Services",
+                "footer_menu_2_name": "our company",
+                "footer_menu_2_heading": "Our Company",
+                "address": "MAIN: 1234 Address St",
+                "city": "city",
+                "state": "state",
+                "zip": "10939"
+            }
+        },
+        "nav": {
+            "variation": "a",
+            "data": []
+        },
+        "testimonial": {
+            "variation": "c",
+            "heading": "Our Reviews",
+            "subheading": "See What Your Neighbors Are Saying",
+            "category_filter": ["all"],
+            "data": [
+                {
+                    "name": "Brandon A",
+                    "city": "Anytown",
+                    "state": "ST",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id condimentum a tortor vel. Et et nulla mauris, quam mattis tellus. Gravida morbi volutpat tristique praesent adipiscing nunc sit imperdiet. Sit mauris gravida ut rhoncus vel. Sed fermentum neque, ipsum aliquet. Venenatis purus est tincidunt sagittis",
+                    "post_id": 56509,
+                    "category": [
+                        "hvac",
+                        "plumbing"
+                    ]
+                },
+                {
+                    "name": "Brandon B",
+                    "city": "Anytown",
+                    "state": "ST",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id condimentum a tortor vel. Et et nulla mauris, quam mattis tellus. Gravida morbi volutpat tristique praesent adipiscing nunc sit imperdiet. Sit mauris gravida ut rhoncus vel. Sed fermentum neque, ipsum aliquet. Venenatis purus est tincidunt sagittis",
+                    "post_id": 56508,
+                    "category": [
+                        "hvac",
+                        "plumbing"
+                    ]
+                },
+                {
+                    "name": "Brandon C",
+                    "city": "Anytown",
+                    "state": "ST",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id condimentum a tortor vel. Et et nulla mauris, quam mattis tellus. Gravida morbi volutpat tristique praesent adipiscing nunc sit imperdiet. Sit mauris gravida ut rhoncus vel. Sed fermentum neque, ipsum aliquet. Venenatis purus est tincidunt sagittis",
+                    "post_id": 56507,
+                    "category": [
+                        "hvac"
+                    ]
+                }
+            ],
+            "button_text": "Read More reviews",
+            "button_link": "/reviews"
+        },
+        "desktop_schedule_online_button": {
+            "enabled": true,
+            "type": "service_titan",
+            "url": "/schedule-service/",
+            "label": "Schedule Service",
+            "icon_class": "icon-calendar2"
+        },
+        "ctas": {
+            "chat": {
+                "enabled": true,
+                "type": "url",
+                "url": "/#",
+                "label": "Chat",
+                "icon_class": "icon-user-headset3"
+            },
+            "text": {
+                "enabled": true,
+                "type": "sms",
+                "url": "sms:+5555555555",
+                "label": "text",
+                "icon_class": "icon-message-dots1"
+            },
+            "schedule_online": {
+                "enabled": true,
+                "type": "service_titan",
+                "url": "/schedule-service/",
+                "label": "Schedule Service",
+                "icon_class": "icon-calendar-check1"
+            },
+            "free_estimate": {
+                "enabled": true,
+                "type": "url",
+                "url": "/free-estimate",
+                "label": "free estimate",
+                "icon_class": "icon-file-invoice-dollar1"
+            },
+            "service_request_form": {
+                "enabled": true,
+                "type": "url",
+                "url": "/schedule-service",
+                "label": "Service request form",
+                "icon_class": "icon-rectangle-list3"
+            }
+        }
+    }
+}

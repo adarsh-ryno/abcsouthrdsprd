@@ -1,0 +1,99 @@
+.review-swiper-a {
+	.swiper-slide{
+		&:before {
+		    content: "";
+		    width: 0;
+		    height: 0;
+		    border-left: 25px solid transparent;
+		    border-right: 25px solid transparent;
+		    border-top: 50px solid $true_white;
+		    position: absolute;
+		    bottom: -41px;
+		    right: 58px;
+		    z-index: 1;
+		}
+		&:after{
+		    content: "";
+		    width: 0;
+		    height: 0;
+		    border-left: 25px solid transparent;
+		    border-right: 25px solid transparent;
+		    border-top: 50px solid $true_white;
+		    position: absolute;
+		    bottom: -50px;
+		    right: 58px;
+		    z-index: 0;
+		    filter: drop-shadow(0px 5px 10px rgba(0,0,0, 0.12) );
+
+		}
+	}
+}
+.review_a{
+	&:before {
+	    content: "";
+	    width: 0;
+	    height: 0;
+	    border-left: 30px solid transparent;
+	    border-right: 30px solid transparent;
+	    border-top: 45px solid $true_white;
+	    position: absolute;
+	    bottom: -39px;
+	    right: 78px;
+	    z-index: 1;
+	}
+	&:after{
+	    content: "";
+	    width: 0;
+	    height: 0;
+	    border-left: 30px solid transparent;
+	    border-right: 30px solid transparent;
+	    border-top: 45px solid $true_white;
+	    position: absolute;
+	    bottom: -45px;
+	    right: 78px;
+	    z-index: 0;
+	    filter: drop-shadow(0px 5px 10px rgba(0,0,0, 0.12) );
+	}
+}
+.review-pagination-a {
+    span.swiper-pagination-bullet {
+     	width: 10px;
+	    height: 10px;
+	  	background: $tertiary_color !important;
+	  	opacity: 1;
+	  	border: 1px  solid $true_white;
+	    margin: 0px 5px 0px 5px !important;
+	    position: relative;	   	   
+	}
+	span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	    background: $primary_color!important;
+	    border: 1px  solid $primary_color;
+	}
+	
+}
+
+.review-pagination-a.landing_pagination_a{
+    padding-top: 0px;
+    bottom: 5px !important;
+	span.swiper-pagination-bullet {
+		margin: 0px 10px 0px 0px !important;
+		width: 12px;
+		height:12px;
+		background: $true_white !important;
+		opacity: 1;
+		border: 4px  solid $true_black;
+		margin: 0px 0px 0px 10px !important;
+		position: relative;
+	}
+	span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	    background: $true_black!important;
+	}
+}
+
+.elementor-editor-active{
+	.review-swiper-a{
+		.swiper-slide{
+			overflow: visible !important;
+		}
+	}
+}

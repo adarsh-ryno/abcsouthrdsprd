@@ -1,0 +1,889 @@
+.elementor-template-full-width .elementor .elementor-widget-heading h1.elementor-heading-title{
+	font-family: $h1_font_family;
+	font-size: $h1_font_size ;
+	font-weight: $h1_font_weight;
+	text-transform: $h1_text_transform;
+	line-height: $h1_line_height;
+	letter-spacing: $h1_letter_spacing;
+	font-style: $h1_font_style;
+	word-spacing: $h1_word_spacing;
+	text-decoration: $h1_text_decoration;
+	color:$h1_color;
+}
+h1,.h1 {
+	font-family: $h1_font_family;
+	font-size: $h1_font_size ;
+	font-weight: $h1_font_weight;
+	text-transform: $h1_text_transform;
+	line-height: $h1_line_height;
+	letter-spacing: $h1_letter_spacing;
+	font-style: $h1_font_style;
+	word-spacing: $h1_word_spacing;
+	text-decoration: $h1_text_decoration;
+	color:$h1_color;
+}
+.h1-alt {
+	font-family: $h1_font_family;
+	font-size: $h1_font_size ;
+	font-weight: $h1_font_weight;
+	text-transform: $h1_text_transform;
+	line-height: $h1_line_height;
+	letter-spacing: $h1_letter_spacing;
+	font-style: $h1_font_style;
+	word-spacing: $h1_word_spacing;
+	text-decoration: $h1_text_decoration;
+	color:$h1_alt_color;
+}
+h2,.h2 {
+	font-family: $h2_font_family;
+	font-size: $h2_font_size;
+	font-weight: $h2_font_weight;
+	text-transform: $h2_text_transform;
+	line-height: $h2_line_height;
+	letter-spacing: $h2_letter_spacing;
+	font-style: $h2_font_style;
+	word-spacing: $h2_word_spacing;
+	text-decoration: $h2_text_decoration;
+	color:$h2_color;
+}
+.h2-alt {
+	font-family: $h2_font_family;
+	font-size: $h2_font_size;
+	font-weight: $h2_font_weight;
+	text-transform: $h2_text_transform;
+	line-height: $h2_line_height;
+	letter-spacing: $h2_letter_spacing;
+	font-style: $h2_font_style;
+	word-spacing: $h2_word_spacing;
+	text-decoration: $h2_text_decoration;
+	color:$h2_alt_color;
+}
+h3,.h3 {
+	font-family: $h3_font_family;
+	font-size: $h3_font_size;
+	font-weight: $h3_font_weight;
+	text-transform: $h3_text_transform;
+	line-height: $h3_line_height;
+	letter-spacing: $h3_letter_spacing;
+	font-style: $h3_font_style;
+	word-spacing: $h3_word_spacing;
+	text-decoration: $h3_text_decoration;
+	color:$h3_color;
+}
+.h3-alt {
+	font-family: $h3_font_family;
+	font-size: $h3_font_size;
+	font-weight: $h3_font_weight;
+	text-transform: $h3_text_transform;
+	line-height: $h3_line_height;
+	letter-spacing: $h3_letter_spacing;
+	font-style: $h3_font_style;
+	word-spacing: $h3_word_spacing;
+	text-decoration: $h3_text_decoration;
+	color:$h3_alt_color;
+}
+h4,.h4 {
+	font-family: $h4_font_family;
+	font-size: $h4_font_size;
+	font-weight: $h4_font_weight;
+	text-transform: $h4_text_transform;
+	line-height: $h4_line_height;
+	letter-spacing: $h4_letter_spacing;
+	font-style: $h4_font_style;
+	word-spacing: $h4_word_spacing;
+	text-decoration: $h4_text_decoration;
+	color:$h4_color;
+}
+.h4-alt {
+	font-family: $h4_font_family;
+	font-size: $h4_font_size;
+	font-weight: $h4_font_weight;
+	text-transform: $h4_text_transform;
+	line-height: $h4_line_height;
+	letter-spacing: $h4_letter_spacing;
+	font-style: $h4_font_style;
+	word-spacing: $h4_word_spacing;
+	text-decoration: $h4_text_decoration;
+	color:$h4_alt_color;
+}
+h5,.h5 {
+	font-family: $h5_font_family;
+	font-size: $h5_font_size;
+	font-weight: $h5_font_weight;
+	text-transform: $h5_text_transform;
+	line-height: $h5_line_height;
+	letter-spacing: $h5_letter_spacing;
+	font-style: $h5_font_style;
+	word-spacing: $h5_word_spacing;
+	text-decoration: $h5_text_decoration;
+	color:$h5_color;
+}
+.h5-alt {
+	font-family: $h5_font_family;
+	font-size: $h5_font_size;
+	font-weight: $h5_font_weight;
+	text-transform: $h5_text_transform;
+	line-height: $h5_line_height;
+	letter-spacing: $h5_letter_spacing;
+	font-style: $h5_font_style;
+	word-spacing: $h5_word_spacing;
+	text-decoration: $h5_text_decoration;
+	color:$h5_alt_color;
+}
+h6,.h6 {
+	font-family: $h6_font_family;
+	font-size: $h6_font_size;
+	font-weight: $h6_font_weight;
+	text-transform: $h6_text_transform;
+	line-height: $h6_line_height;
+	letter-spacing: $h6_letter_spacing;
+	font-style: $h6_font_style;
+	word-spacing: $h6_word_spacing;
+	text-decoration: $h6_text_decoration;
+	color:$h6_color;
+}
+.h6-alt {
+	font-family: $h6_font_family;
+	font-size: $h6_font_size;
+	font-weight: $h6_font_weight;
+	text-transform: $h6_text_transform;
+	line-height: $h6_line_height;
+	letter-spacing: $h6_letter_spacing;
+	font-style: $h6_font_style;
+	word-spacing: $h6_word_spacing;
+	text-decoration: $h6_text_decoration;
+	color:$h6_alt_color;
+}
+.h7 {
+	font-family: $h7_font_family;
+	font-size: $h7_font_size;
+	font-weight: $h7_font_weight;
+	text-transform: $h7_text_transform;
+	line-height: $h7_line_height;
+	letter-spacing: $h7_letter_spacing;
+	color:$h7_color;
+	font-style: $h7_font_style;
+	word-spacing: $h7_word_spacing;
+	text-decoration: $h7_text_decoration;
+	display: block;
+}
+.h7-alt {
+	font-family: $h7_font_family;
+	font-size: $h7_font_size;
+	font-weight: $h7_font_weight;
+	text-transform: $h7_text_transform;
+	line-height: $h7_line_height;
+	letter-spacing: $h7_letter_spacing;
+	font-style: $h7_font_style;
+	word-spacing: $h7_word_spacing;
+	text-decoration: $h7_text_decoration;
+	color:$h7_alt_color;
+	display: block;
+}
+.h8 {
+	font-family: $h8_font_family;
+	font-size: $h8_font_size;
+	font-weight: $h8_font_weight;
+	text-transform: $h8_text_transform;
+	line-height: $h8_line_height;
+	letter-spacing: $h8_letter_spacing;
+	font-style: $h8_font_style;
+	word-spacing: $h8_word_spacing;
+	text-decoration: $h8_text_decoration;
+	color: $h8_color;
+	display: block;
+}
+.h8-alt {
+	font-family: $h8_font_family;
+	font-size: $h8_font_size;
+	font-weight: $h8_font_weight;
+	text-transform: $h8_text_transform;
+	line-height: $h8_line_height;
+	letter-spacing: $h8_letter_spacing;
+	font-style: $h8_font_style;
+	word-spacing: $h8_word_spacing;
+	text-decoration: $h8_text_decoration;
+	color:$h8_alt_color;
+	display: block;
+}
+
+li{
+	font-family: $li_font_family;
+    font-size: $li_font_size;
+    font-weight: $li_font_weight;
+    text-transform: $li_text_transform;
+    line-height: $li_line_height;
+    letter-spacing: $li_letter_spacing;
+	font-style: $li_font_style;
+	word-spacing: $li_word_spacing;
+	text-decoration: $li_text_decoration;
+    color: $li_color;
+}
+.li-alt{
+	font-family: $li_font_family;
+    font-size: $li_font_size;
+    font-weight: $li_font_weight;
+    text-transform: $li_text_transform;
+    line-height: $li_line_height;
+    letter-spacing: $li_letter_spacing;
+	font-style: $li_font_style;
+	word-spacing: $li_word_spacing;
+	text-decoration: $li_text_decoration;
+    color: $li_alt_color;
+}
+body{
+    font-family: $p_font_family;
+    font-size: $p_font_size;
+    font-weight: $p_font_weight;
+    text-transform: $p_text_transform;
+    line-height: $p_line_height;
+    letter-spacing: $p_letter_spacing;
+	font-style: $p_font_style;
+	word-spacing: $p_word_spacing;
+	text-decoration: none;
+    color: $p_color;
+}
+p,.p{
+    font-family: $p_font_family;
+    font-size: $p_font_size;
+    font-weight: $p_font_weight;
+    text-transform: $p_text_transform;
+    line-height: $p_line_height;
+    letter-spacing: $p_letter_spacing;
+	font-style: $p_font_style;
+	word-spacing: $p_word_spacing;
+	text-decoration: $p_text_decoration;
+    color: $p_color;
+}
+.p-alt,.body-alt{
+    font-family: $p_font_family;
+    font-size: $p_font_size;
+    font-weight: $p_font_weight;
+    text-transform: $p_text_transform;
+    line-height: $p_line_height;
+    letter-spacing: $p_letter_spacing;
+	font-style: $p_font_style;
+	word-spacing: $p_word_spacing;
+	text-decoration: $p_text_decoration;
+    color: $p_alt_color;
+}
+strong{
+    font-family: $strong_font_family;
+    font-size: $strong_font_size;
+    font-weight: $strong_font_weight;
+    text-transform: $strong_text_transform;
+    line-height: $strong_line_height;
+    letter-spacing: $strong_letter_spacing;
+	font-style: $strong_font_style;
+	word-spacing: $strong_word_spacing;
+	text-decoration: $strong_text_decoration;
+    color: $strong_color;
+}
+.strong-alt{
+	font-family: $strong_font_family;
+    font-size: $strong_font_size;
+    font-weight: $strong_font_weight;
+    text-transform: $strong_text_transform;
+    line-height: $strong_line_height;
+    letter-spacing: $strong_letter_spacing;
+	font-style: $strong_font_style;
+	word-spacing: $strong_word_spacing;
+	text-decoration: $strong_text_decoration;
+    color: $strong_alt_color;
+}
+em{
+    font-family: $em_font_family;
+    font-size: $em_font_size;
+    font-weight: $em_font_weight;
+    text-transform: $em_text_transform;
+    line-height: $em_line_height;
+    letter-spacing: $em_letter_spacing;
+	font-style: $em_font_style;
+	word-spacing: $em_word_spacing;
+	text-decoration: $em_text_decoration;
+    color: $em_color;
+}
+.em-alt{
+    font-family: $em_font_family;
+    font-size: $em_font_size;
+    font-weight: $em_font_weight;
+    text-transform: $em_text_transform;
+    line-height: $em_line_height;
+    letter-spacing: $em_letter_spacing;
+	font-style: $em_font_style;
+	word-spacing: $em_word_spacing;
+	text-decoration: $em_text_decoration;
+    color: $em_alt_color;
+} 
+a,.a, .elementor a{
+    font-family: $a_font_family;
+    font-size: $a_font_size;
+    font-weight: $a_font_weight;
+    text-transform: $a_text_transform;
+    line-height: $a_line_height;
+    letter-spacing: $a_letter_spacing;
+	font-style: $a_font_style;
+	word-spacing: $a_word_spacing;
+	text-decoration: $a_text_decoration;
+    color: $a_color;
+    
+    &:hover{
+    	font-size:$a_hover_font_size;
+		color:$a_hover_color ;
+		font-weight:$a_hover_font_weight;
+		line-height:$a_hover_line_height ;
+		font-style: $a_hover_font_style;
+		word-spacing: $a_hover_word_spacing;
+		text-decoration: $a_hover_text_decoration;
+		letter-spacing: $a_hover_letter_spacing;
+		text-transform: $a_hover_text_transform;
+	}
+}
+.a-alt, .elementor .a-alt{
+    font-family: $a_font_family;
+    font-size: $a_font_size;
+    font-weight: $a_font_weight;
+    text-transform: $a_text_transform;
+    line-height: $a_line_height;
+    letter-spacing: $a_letter_spacing;
+	font-style: $a_font_style;
+	word-spacing: $a_word_spacing;
+	text-decoration: $a_text_decoration;
+    color: $a_alt_color;
+    
+    &:hover{
+		font-size:$a_hover_font_size;
+		color:$a_hover_color ;
+		font-weight:$a_hover_font_weight;
+		line-height:$a_hover_line_height ;
+		font-style: $a_hover_font_style;
+		word-spacing: $a_hover_word_spacing;
+		text-decoration: $a_hover_text_decoration;
+		letter-spacing: $a_hover_letter_spacing;
+		text-transform: $a_hover_text_transform;
+		
+    }
+}
+
+.display1{
+	font-family: $hero_font_family_display_1;
+	font-weight: $hero_font_weight_display_1;
+	font-size: $hero_font_size_display_1;
+	line-height: $hero_line_height_display_1;
+	text-transform: $hero_text_transform_display_1;
+	color: $hero_color_display_1;
+	letter-spacing:$hero_letter_spacing_display_1;
+	display:block;
+	text-decoration: $hero_text_decoration_display_1;
+    word-spacing: $hero_word_spacing_display_1;
+    font-style: $hero_font_style_display_1;
+
+}
+.display2{
+	font-family: $hero_font_family_display_2;
+	font-weight: $hero_font_weight_display_2;
+	font-size: $hero_font_size_display_2;
+	line-height: $hero_line_height_display_2;
+	text-transform: $hero_text_transform_display_2;
+	color: $hero_color_display_2;
+	letter-spacing:$hero_letter_spacing_display_2;
+	display:block;
+	text-decoration: $hero_text_decoration_display_2;
+    word-spacing: $hero_word_spacing_display_2;
+    font-style: $hero_font_style_display_2;
+}
+body{
+	
+	// a{
+	// 	font-size: $a_font_size;
+	// 	font-weight: $a_font_weight;
+		
+	// 	&:hover{
+	// 		color: $a_hover_color ;
+	// 	}
+	// }
+	strong{
+		a{
+			color: $a_color;
+			text-decoration: none;
+			font-weight: $strong_font_weight;
+			&:hover{
+				color: $a_hover_color ;
+				font-weight: $strong_font_weight;
+			}
+		}	
+	}
+	a{
+		strong{
+			text-decoration: none;
+			color: $a_color;
+			font-weight: $strong_font_weight;
+		}
+		&:hover{
+			strong{
+				color: $a_hover_color;
+				font-weight: $strong_font_weight;
+				
+			}
+		}
+	}
+	main {
+		// a{
+		// 	font-size: $a_font_size;
+		// 	font-weight: $a_font_weight;
+		// 	text-decoration: $a_text_transform;
+		// 	&:hover{
+		// 		color: $a_hover_color;
+		// 		text-decoration: $a_hover_text_decoration;
+		// 	}
+		// }
+		// a.btn.btn-primary,a.btn.btn-secondary{
+		// 	&:hover{
+		// 		text-decoration: none;
+		// 	}
+		// }
+		strong{
+			a{
+				color: $a_color;
+				text-decoration: none;
+				font-weight: $strong_font_weight;
+				&:hover{
+					color: $a_hover_color ;
+					font-weight: $strong_font_weight;
+					text-decoration: $a_hover_text_decoration;
+				}
+			}	
+		}
+		a{
+			strong{
+				text-decoration: none;
+				color: $a_color;
+				font-weight: $strong_font_weight;
+			}
+			&:hover{
+				strong{
+					color: $a_hover_color;
+					font-weight: $strong_font_weight;
+					text-decoration: $a_hover_text_decoration;
+				}
+			}
+		}
+		ul{	
+			padding-left:0px;
+			li{	
+				padding-left:35px;
+				position: relative;
+				&:before{
+					content:"";
+					width:10px;
+					height:10px;
+					border-radius:100%;
+					background-color: $primary_color;
+					position: absolute;
+					left: 15px;
+    				top: 10px;
+				}
+			}
+		}
+		.treat_content{
+			li{	
+				&:before{
+					width:5px;
+					height:5px;
+					background-color: $true_black;
+					top: 15px;
+					@media screen and (max-width:991px){
+						content:"";
+						width:10px;
+						height:10px;
+						border-radius:100%;
+						background-color: $true_black;
+						position: absolute;
+						left: 15px;
+	    				top: 9px;
+					}
+				}
+			}
+		}
+	}
+	ul{
+		list-style:none;
+	}
+}
+
+.font_default {font-family: $default_font_family;}
+.font_alt_1 {font-family: $alternate_font_family_1;}
+.font_alt_2 {font-family: $alternate_font_family_2;}
+.font_alt_3 {font-family: $alternate_font_family_3;}
+
+//Classes for font-weights
+.text_thin {font-weight: 100;}
+.text_xlight {font-weight: 200;}
+.text_light {font-weight: 300;}
+.text_normal {font-weight: 400;}
+.text_medium {font-weight: 500;}
+.text_semibold {font-weight: 600;}
+.text_semibold_hover {
+	&:hover{
+		font-weight: 600;
+	}
+}
+.text_bold {font-weight: 700;}
+.text_bold_hover {
+	&:hover{
+		font-weight: 700;
+	}
+}
+.text_xbold {font-weight: 800;}
+.text_heavy {font-weight: 900;}
+
+
+$f: 0;
+@while $f < 200 {
+	//Classes for font size
+	.elementor .text_#{$f},  .text_#{$f}{
+		font-size: 1px * $f;
+		&:hover{
+			font-size: 1px * $f;
+		}
+	}
+	//Classes for line height
+	.elementor .line_height_#{$f}, .line_height_#{$f}{
+		line-height: 1px * $f;
+		&:hover{
+			line-height: 1px * $f;
+		}
+	}
+
+	//Classes for letter spacing
+	.letter_spacing_#{$f}{
+		letter-spacing: 1px * $f;
+	}
+	$f: $f + 1;
+}
+//Classes for line Heights
+.line_height {
+	line-height: 1.2
+}
+.line_height_19_8 {
+	line-height: 19.8px;
+}
+.line_height_23_1 {
+	line-height: 23.1px;
+}
+.line_height_25_3 {
+	line-height: 25.3px;
+}
+.line_height_26_4{
+	line-height: 26.4px;
+}
+.line_height_34_5 {
+	line-height: 34.5px;
+}
+.line_height_55_2 {
+	line-height: 55.2px;
+}
+
+
+.announcment_bar_text, .elementor .announcment_bar_text{
+	font-family: $announcement_bar_font_family;
+    font-size: $announcement_bar_font_size;
+    font-weight: $announcement_bar_font_weight;
+    text-transform: $announcement_bar_text_transform;
+    line-height: $announcement_bar_line_height;
+    letter-spacing: $announcement_bar_letter_spacing;
+    color: $announcement_bar_text_color;
+    text-decoration:$announcement_bar_text_decoration;
+    font-style:$announcement_bar_font_style;
+    word-spacing:$announcement_bar_word_spacing;
+    &:hover{
+    	color:$announcement_bar_text_hover;
+		font-family: $announcement_bar_font_family;
+		font-size: $announcement_bar_font_size;
+		font-weight: $announcement_bar_font_weight;
+		text-transform: $announcement_bar_text_transform;
+		line-height: $announcement_bar_line_height;
+		letter-spacing: $announcement_bar_letter_spacing;
+		text-decoration:$announcement_bar_text_decoration;
+		font-style:$announcement_bar_font_style;
+		word-spacing:$announcement_bar_word_spacing;
+    }
+
+}
+.call_today{
+	font-family: $call_today_font_family;
+    font-size: $call_today_font_size;
+    font-weight: $call_today_font_weight;
+    text-transform: $call_today_text_transform;
+    line-height: $call_today_line_height;
+    letter-spacing: $call_today_letter_spacing;
+    color: $call_today_text_color;
+    text-decoration:$call_today_text_decoration;
+    font-style:$call_today_font_style;
+    word-spacing:$call_today_word_spacing;
+	&:hover{
+    	font-family: $call_today_font_family;
+    font-size: $call_today_font_size;
+    font-weight: $call_today_font_weight;
+    text-transform: $call_today_text_transform;
+    line-height: $call_today_line_height;
+    letter-spacing: $call_today_letter_spacing;
+    color: $call_today_text_color;
+    text-decoration:$call_today_text_decoration;
+    font-style:$call_today_font_style;
+    word-spacing:$call_today_word_spacing;
+    }
+}
+.phone_number, .elementor .phone_number{
+	font-family: $phone_number_font_family;
+    font-size: $phone_number_font_size;
+    font-weight: $phone_number_font_weight;
+    text-transform: $phone_number_text_transform;
+    line-height: $phone_number_line_height;
+    letter-spacing: $phone_number_letter_spacing;
+    color: $phone_number_text_color;
+    text-decoration:$phone_number_text_decoration;
+    font-style:$phone_number_font_style;
+    word-spacing:$phone_number_word_spacing;
+    &:hover{
+    	color:$phone_number_hover;
+		font-family: $phone_number_font_family;
+    font-size: $phone_number_font_size;
+    font-weight: $phone_number_font_weight;
+    text-transform: $phone_number_text_transform;
+    line-height: $phone_number_line_height;
+    letter-spacing: $phone_number_letter_spacing;
+    text-decoration:$phone_number_text_decoration;
+    font-style:$phone_number_font_style;
+    word-spacing:$phone_number_word_spacing;
+    }
+}
+
+// .container-fluid .phone_number{
+//     text-decoration:$phone_number_text_decoration;  
+// }
+.contact_days{
+	font-family: $phone_number_font_family;
+	font-size: $phone_number_font_size;
+	font-weight: $navigation_font_weight;
+	line-height: 40px ;
+}
+
+body {
+	main{
+		h1,h2,h3,h4,h5,h6,.h7,.h8{
+			a{
+				font-size: inherit;
+				font-weight: inherit;
+				&:hover{
+					font-size: inherit;
+					font-weight: inherit;
+				}
+			}
+		}
+	}
+}
+
+
+.footer_links, .elementor .footer_links{
+	font-family: $footer_links_font_family;
+    font-size: $footer_links_font_size;
+    font-weight: $footer_links_font_weight;
+    text-transform: $footer_links_text_transform;
+    line-height: $footer_links_line_height;
+    letter-spacing: $footer_links_letter_spacing;
+    color: $footer_links_color;
+    text-decoration:$footer_links_text_decoration;
+    font-style:$footer_links_font_style;
+    word-spacing:$footer_links_word_spacing;
+    &:hover{
+    	color:$footer_links_hover;
+		font-family: $footer_links_font_family;
+		font-size: $footer_links_font_size;
+		font-weight: $footer_links_font_weight;
+		text-transform: $footer_links_text_transform;
+		line-height: $footer_links_line_height;
+		letter-spacing: $footer_links_letter_spacing;
+		text-decoration:$footer_links_text_decoration;
+		font-style:$footer_links_font_style;
+		word-spacing:$footer_links_word_spacing;
+    }
+}
+
+.container-fluid li.footer_links{
+    text-decoration:$footer_links_text_decoration;  
+}
+
+.footer_add {
+	color: $footer_links_color;
+	&:hover{
+    	color:$footer_links_color;
+    }
+}
+.footer_phone_number, .elementor .footer_phone_number{
+	font-family: $footer_phone_number_font_family;
+    font-size: $footer_phone_number_font_size;
+    font-weight: $footer_phone_number_font_weight;
+    text-transform: $footer_phone_number_text_transform;
+    line-height: $footer_phone_number_line_height;
+    letter-spacing: $footer_phone_number_letter_spacing;
+    color: $footer_phone_number_color;
+    text-decoration:$footer_phone_number_text_decoration;
+    font-style:$footer_phone_number_font_style;
+    word-spacing:$footer_phone_number_word_spacing;
+    &:hover{
+    	color:$footer_phone_number_hover;
+		font-family: $footer_phone_number_font_family;
+		font-size: $footer_phone_number_font_size;
+		font-weight: $footer_phone_number_font_weight;
+		text-transform: $footer_phone_number_text_transform;
+		line-height: $footer_phone_number_line_height;
+		letter-spacing: $footer_phone_number_letter_spacing;
+		text-decoration:$footer_phone_number_text_decoration;
+		font-style:$footer_phone_number_font_style;
+		word-spacing:$footer_phone_number_word_spacing;
+    }
+}
+
+// .container-fluid .footer_phone_number{
+//     text-decoration:$footer_phone_number_text_decoration;  
+// }
+.social_media_icons{
+	color:$social_media_icons_color;
+	&:hover {
+		color:$social_media_icons_hover;
+	}
+}
+a.social_media_icons{
+	color:$social_media_icons_color;
+	&:hover {
+		color:$social_media_icons_hover;
+	}
+}
+.social_icons_contact{
+	color:$primary_color;
+	&:hover {
+		color:$social_media_icons_hover;
+	}
+}
+.copyright_hover, .elementor .copyright_hover{
+	&:hover{
+		color:$copyright_hover;
+	}
+}
+.footer_phone_icon_color{
+	color:$footer_phone_icon_color;
+}
+.footer_license_icon_color{
+	color:$footer_license_icon_color;
+}
+.page_main_links{
+	a{
+		color: $true_black;
+		&:hover{
+			color: $navigation_hover;
+		}
+	}
+}
+
+.coupon_heading{
+	font-family: $coupon_heading_font_family;
+	font-size: $coupon_heading_font_size;
+	font-weight: $coupon_heading_font_weight;
+	color: $coupon_heading_color;
+	line-height: $coupon_heading_line_height;
+	text-transform: $coupon_heading_text_transform;
+    letter-spacing: $coupon_heading_letter_spacing;
+	font-style: $coupon_heading_font_style;
+	word-spacing: $coupon_heading_word_spacing;
+	text-decoration: $coupon_heading_text_decoration;
+}
+
+.coupon_sub_heading{
+	font-family: $coupon_sub_heading_font_family;
+	font-size: $coupon_sub_heading_font_size;
+	font-weight: $coupon_sub_heading_font_weight;
+	color: $coupon_sub_heading_color;
+	line-height: $coupon_sub_heading_line_height;
+	text-transform: $coupon_sub_heading_text_transform;
+    letter-spacing: $coupon_sub_heading_letter_spacing;
+	font-style: $coupon_sub_heading_font_style;
+	word-spacing: $coupon_sub_heading_word_spacing;
+	text-decoration: $coupon_sub_heading_text_decoration;
+}
+
+.coupon_offer{
+	font-family: $coupon_offer_text_font_family;
+	font-size: $coupon_offer_text_font_size;
+	font-weight: $coupon_offer_text_font_weight;
+	color: $coupon_offer_text_color;
+	line-height: $coupon_offer_text_line_height;
+	text-transform: $coupon_offer_text_text_transform;
+    letter-spacing: $coupon_offer_text_letter_spacing;
+	font-style: $coupon_offer_text_font_style;
+	word-spacing: $coupon_offer_text_word_spacing;
+	text-decoration: $coupon_offer_text_text_decoration;
+}
+
+.coupon_expiry{
+	font-family: $coupon_expiry_text_font_family;
+	font-size: $coupon_expiry_text_font_size;
+	font-weight: $coupon_expiry_text_font_weight;
+	color: $coupon_expiry_text_color;
+	line-height: $coupon_expiry_text_line_height;
+	text-transform: $coupon_expiry_text_text_transform;
+    letter-spacing: $coupon_expiry_text_letter_spacing;
+	font-style: $coupon_expiry_text_font_style;
+	word-spacing: $coupon_expiry_text_word_spacing;
+	text-decoration: $coupon_expiry_text_text_decoration;
+}
+
+.coupon_disclaimer{
+	font-family: $coupon_disclaimer_text_font_family;
+	font-size: $coupon_disclaimer_text_font_size;
+	font-weight: $coupon_disclaimer_text_font_weight;
+	color: $coupon_disclaimer_text_color;
+	text-transform: $coupon_disclaimer_text_text_transform;
+	line-height: $coupon_disclaimer_text_line_height;
+    letter-spacing: $coupon_disclaimer_text_letter_spacing;
+	font-style: $coupon_disclaimer_text_font_style;
+	word-spacing: $coupon_disclaimer_text_word_spacing;
+	text-decoration: $coupon_disclaimer_text_text_decoration;
+}
+.coupon_disclaimer:first-letter {
+    text-transform: uppercase;
+}
+
+.blog_read_more_text_color{
+	color:$blog_read_more_text_color ;
+	 &:hover{
+    	color:$blog_read_more_text_color_hover ;
+	}
+}
+
+.thankyou_page_heading_color{
+	color:$thankyou_page_heading_color ;
+}
+.thankyou_page_content_color{
+	color:$thankyou_page_content_color ;
+}
+.pagenotfound_display_1{
+	color:$pagenotfound_display_1 ;
+}
+.pagenotfound_display_2{
+	color:$pagenotfound_display_2 ;
+}
+.service_block{
+	&:hover{
+		h6,.h7{
+			color:$service_block_hover_text_color;
+		}
+		.service_block_icon{
+			color:$service_block_hover_icon_color;
+		}
+	}
+}
+
+.hero_banner_form_background{
+  background: $hero_banner_form_background ;
+}

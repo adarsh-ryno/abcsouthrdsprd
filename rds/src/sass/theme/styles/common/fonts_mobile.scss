@@ -1,0 +1,287 @@
+/* Mobile Fonts Styling */
+@media only screen and (max-width: 991px) {
+	//style for heading
+	h1, .h1{
+		font-size: $h1_mobile_font_size;
+		line-height: $h1_mobile_line_height;
+		letter-spacing: $h1_mobile_letter_spacing;
+		word-spacing: $h1_mobile_word_spacing;
+	}
+	.h1-alt{
+		font-size: $h1_mobile_font_size;
+		line-height: $h1_mobile_line_height;
+		letter-spacing: $h1_mobile_letter_spacing;
+		word-spacing: $h1_mobile_word_spacing;
+	}
+	
+	h2, .h2{
+		font-size: $h2_mobile_font_size ;
+		line-height: $h2_mobile_line_height ;
+		letter-spacing: $h2_mobile_letter_spacing;
+		word-spacing: $h2_mobile_word_spacing;
+	}
+	.h2-alt{
+		font-size: $h2_mobile_font_size ;
+		line-height: $h2_mobile_line_height ;
+		letter-spacing: $h2_mobile_letter_spacing;
+		word-spacing: $h2_mobile_word_spacing;
+	}
+	h3,.h3{
+		font-size: $h3_mobile_font_size;
+		line-height: $h3_mobile_line_height;
+		letter-spacing: $h3_mobile_letter_spacing;
+		word-spacing: $h3_mobile_word_spacing;
+	}
+	.h3-alt{
+		font-size: $h3_mobile_font_size;
+		line-height: $h3_mobile_line_height;
+		letter-spacing: $h3_mobile_letter_spacing;
+		word-spacing: $h3_mobile_word_spacing;
+	}
+	h4,.h4{
+		font-size: $h4_mobile_font_size;
+		line-height: $h4_mobile_line_height ;
+		letter-spacing: $h4_mobile_letter_spacing;
+		word-spacing: $h4_mobile_word_spacing;
+	}
+	.h4-alt{
+		font-size: $h4_mobile_font_size;
+		line-height: $h4_mobile_line_height ;
+		letter-spacing: $h4_mobile_letter_spacing;
+		word-spacing: $h4_mobile_word_spacing;
+	}
+	h5, .h5{
+		font-size: $h5_mobile_font_size;
+		line-height: $h5_mobile_line_height ;
+		letter-spacing: $h5_mobile_letter_spacing;
+		word-spacing: $h5_mobile_word_spacing;
+	}
+	.h5-alt{
+		font-size: $h5_mobile_font_size;
+		line-height: $h5_mobile_line_height ;
+		letter-spacing: $h5_mobile_letter_spacing;
+		word-spacing: $h5_mobile_word_spacing;
+	}
+	h6, .h6{
+		font-size: $h6_mobile_font_size ;
+		line-height: $h6_mobile_line_height;
+		letter-spacing: $h6_mobile_letter_spacing;
+		word-spacing: $h6_mobile_word_spacing;
+	}
+	.h6-alt{
+		font-size: $h6_mobile_font_size ;
+		line-height: $h6_mobile_line_height;
+		letter-spacing: $h6_mobile_letter_spacing;
+		word-spacing: $h6_mobile_word_spacing;
+	}
+	h7,.h7{
+		font-size: $h7_mobile_font_size ;
+		line-height: $h7_mobile_line_height ;
+		letter-spacing: $h7_mobile_letter_spacing;
+		word-spacing: $h7_mobile_word_spacing;
+	}
+	.h7-alt{
+		font-size: $h7_mobile_font_size ;
+		line-height: $h7_mobile_line_height ;
+		letter-spacing: $h7_mobile_letter_spacing;
+		word-spacing: $h7_mobile_word_spacing;
+	}
+	h8,.h8{
+		font-size: $h8_mobile_font_size ;
+		line-height: $h8_mobile_line_height ;
+		letter-spacing: $h8_mobile_letter_spacing;
+		word-spacing: $h8_mobile_word_spacing;
+	}
+	.h8-alt{
+		font-size: $h8_mobile_font_size ;
+		line-height: $h8_mobile_line_height ;
+		letter-spacing: $h8_mobile_letter_spacing;
+		word-spacing: $h8_mobile_word_spacing;
+	}
+	a,.a, .elementor a {
+		font-size: $a_mobile_font_size;
+		line-height: $a_mobile_line_height;
+		letter-spacing: $a_mobile_letter_spacing;
+		word-spacing: $a_mobile_word_spacing;
+		
+		&:hover{
+			font-size:$a_hover_mobile_font_size;
+			line-height:$a_hover_mobile_line_height ;
+			word-spacing: $a_hover_mobile_word_spacing;
+			letter-spacing: $a_hover_mobile_letter_spacing;
+		}
+	}
+	p, .p, .p-alt{
+		font-size: $p_mobile_font_size ;
+		line-height: $p_mobile_line_height;
+		letter-spacing: $p_mobile_letter_spacing;
+		word-spacing:  $p_mobile_word_spacing;
+	}
+	strong{
+		font-size: $strong_mobile_font_size ;
+		line-height: $strong_mobile_line_height;
+		letter-spacing: $strong_mobile_letter_spacing;
+		word-spacing:  $strong_mobile_word_spacing;
+	}
+	em{
+		font-size: $em_mobile_font_size ;
+		line-height: $em_mobile_line_height;
+		letter-spacing: $em_mobile_letter_spacing;
+		word-spacing:  $em_mobile_word_spacing;
+	}
+	li{
+		font-size: $li_mobile_font_size;
+		line-height: $li_mobile_line_height;
+		letter-spacing: $li_mobile_letter_spacing;
+		word-spacing:  $li_mobile_word_spacing;
+	}
+	.display1{
+		font-size: $hero_mobile_font_size_display_1 ;
+		letter-spacing: $hero_mobile_letter_spacing_display_1;
+		line-height: $hero_mobile_line_height_display_1;
+		word-spacing: $hero_mobile_word_spacing_display_1;
+	}
+	.announcment_bar_text, .elementor .announcment_bar_text{		
+		font-size: $announcement_bar_mobile_font_size ;
+		letter-spacing: $announcement_bar_mobile_letter_spacing;
+		line-height: $announcement_bar_mobile_line_height;
+		word-spacing: $announcement_bar_mobile_word_spacing;
+		&:hover{
+			font-size: $announcement_bar_mobile_font_size ;
+		letter-spacing: $announcement_bar_mobile_letter_spacing;
+		line-height: $announcement_bar_mobile_line_height;
+		word-spacing: $announcement_bar_mobile_word_spacing;
+		}
+	}
+	.footer_phone_number, .elementor .footer_phone_number{
+    font-size: $footer_phone_number_mobile_font_size;
+    line-height: $footer_phone_number_mobile_line_height;
+    letter-spacing: $footer_phone_number_mobile_letter_spacing;
+    word-spacing:$footer_phone_number_mobile_word_spacing;
+	&:hover{
+		font-size: $footer_phone_number_mobile_font_size;
+		line-height: $footer_phone_number_mobile_line_height;
+		letter-spacing: $footer_phone_number_mobile_letter_spacing;
+		word-spacing:$footer_phone_number_mobile_word_spacing;
+	}
+   
+	}
+	.footer_links, .elementor .footer_links{
+    font-size: $footer_links_mobile_font_size;
+    line-height: $footer_links_mobile_line_height;
+    letter-spacing: $footer_links_mobile_letter_spacing;
+    word-spacing:$footer_links_mobile_word_spacing;
+	&:hover{
+		font-size: $footer_links_mobile_font_size;
+    line-height: $footer_links_mobile_line_height;
+    letter-spacing: $footer_links_mobile_letter_spacing;
+    word-spacing:$footer_links_mobile_word_spacing;
+	}
+   
+	}
+	.display2{
+		font-size: $hero_mobile_font_size_display_2;
+		letter-spacing: $hero_mobile_letter_spacing_display_2;
+		line-height: $hero_mobile_line_height_display_2;
+		word-spacing: $hero_mobile_word_spacing_display_2;
+	}
+	.phone_number, .elementor .phone_number{
+		font-size: $phone_number_mobile_font_size;
+        line-height: $phone_number_mobile_line_height;
+        letter-spacing: $phone_number_mobile_letter_spacing;
+        word-spacing: $phone_number_mobile_word_spacing;
+		&:hover{
+			font-size: $phone_number_mobile_font_size;
+        line-height: $phone_number_mobile_line_height;
+        letter-spacing: $phone_number_mobile_letter_spacing;
+        word-spacing: $phone_number_mobile_word_spacing;
+		}
+	}
+
+.call_today{
+	font-size: $call_today_mobile_font_size;
+	line-height: $call_today_mobile_line_height;
+	letter-spacing: $call_today_mobile_letter_spacing;
+	word-spacing: $call_today_mobile_word_spacing;
+	&:hover{
+		font-size: $call_today_mobile_font_size;
+	line-height: $call_today_mobile_line_height;
+	letter-spacing: $call_today_mobile_letter_spacing;
+	word-spacing: $call_today_mobile_word_spacing;
+	}
+
+}
+	.coupon_heading{
+		font-size: $coupon_mobile_heading_font_size;
+		line-height: $coupon_mobile_heading_line_height;
+		letter-spacing: $coupon_mobile_heading_letter_spacing;
+		word-spacing: $coupon_mobile_heading_word_spacing;
+	}
+	.coupon_sub_heading{
+		font-size: $coupon_mobile_sub_heading_font_size;
+		line-height: $coupon_mobile_sub_heading_line_height;
+		letter-spacing: $coupon_mobile_sub_heading_letter_spacing;
+		word-spacing: $coupon_mobile_sub_heading_word_spacing;
+	}
+	.coupon_offer{
+		font-size: $coupon_mobile_offer_text_font_size;
+		line-height: $coupon_mobile_offer_text_line_height;
+		letter-spacing: $coupon_mobile_offer_text_letter_spacing;
+		word-spacing: $coupon_mobile_offer_text_word_spacing;
+	}
+	.coupon_expiry{
+		font-size: $coupon_mobile_expiry_text_font_size;
+		line-height: $coupon_mobile_expiry_text_line_height;
+		letter-spacing: $coupon_mobile_expiry_text_letter_spacing;
+		word-spacing: $coupon_mobile_expiry_text_word_spacing;
+	}
+	.coupon_disclaimer{
+		font-size: $coupon_mobile_disclaimer_text_font_size;
+		line-height: $coupon_mobile_disclaimer_text_line_height;
+		letter-spacing: $coupon_mobile_disclaimer_text_letter_spacing;
+		word-spacing: $coupon_mobile_disclaimer_text_word_spacing;
+	}
+	.sm_font_default {
+		font-family: $default_font_family !important;
+	}
+
+	.sm_font_alt_1 {
+		font-family: $alternate_font_family_1 !important;
+	}
+
+	.sm_font_alt_2 {
+		font-family: $alternate_font_family_2;
+	}
+
+	.sm_font_alt_3 {
+		font-family: $alternate_font_family_3;
+	}
+	//Classes for font-weights
+	.sm_text_thin { font-weight: 100; }
+	.sm_text_xlight { font-weight: 200; }
+	.sm_text_light { font-weight: 300; }
+	.sm_text_normal { font-weight: 400; }
+	.sm_text_medium { font-weight: 500; }
+	.sm_text_semibold { font-weight: 600; }
+	.sm_text_bold { font-weight: 700; }
+	.sm_text_xbold { font-weight: 800; }
+	.sm_text_heavy { font-weight: 900; }
+
+	$f: 0;
+	@while $f < 200 {
+		//Classes for font size
+		.sm_text_#{$f}{
+			font-size: 1px * $f !important;
+		}
+		//Classes for line height
+		.sm_line_height_#{$f}{
+			line-height: 1px * $f !important;
+		}
+
+		//Classes for letter spacing
+		.sm_letter_spacing_#{$f}{
+			letter-spacing: 1px * $f !important;
+		}
+		$f: $f + 1;
+	}
+}

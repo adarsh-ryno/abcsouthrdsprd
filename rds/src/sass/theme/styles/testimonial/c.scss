@@ -1,0 +1,23 @@
+
+.review-pagination-c{
+	bottom:5px;
+	span.swiper-pagination-bullet {
+	    width: 9px;
+	    height: 9px;
+	    background: $tertiary_color;
+	    opacity: 1;
+	    margin: 0px 6px !important;
+	}
+	span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	    background: $secondary_color;
+	    width: 10px;
+	    height: 10px;
+	}
+}
+.employee-review-pagination-a{
+	@media screen and (min-width:991px){
+		left:51% !important;
+		bottom:60px !important;
+	}
+	
+}

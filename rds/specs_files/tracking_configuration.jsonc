@@ -1,0 +1,154 @@
+{
+  "spec_file":{
+    "rds_version": "4.0",
+    "version":"1.5"
+  },
+  "tracking": 
+    {
+    "enable":false,
+
+    "Google": {
+      "enable":false,
+        "order":1,
+      "name": "Google Analytics (GA4 and UA) & Google Ads Global Tag",
+      "GA4_CODE": "G-xxxxxxxxx",
+      "UA_CODE": "UA-xxxxxxxxx-x",
+      "AW_CODE": "AW-xxxxxxxxx"
+    },
+    "Google_Tag_Manager": {
+      "enable":false,
+      "order":2,
+      "name": "Google Tag Manager – Used for Call Tracking",
+      "GTM_CODE": "GTM-xxxxxxx"
+    },
+    "Google_Search_Console": {
+      "enable":false,
+      "order":3,
+      "name": "Google Search Console",
+      "GSC_CODE": "GSC-CODE"
+    },
+    "Facebook_Pixel": {
+      "enable":false,
+      "order":5,
+      "name": "Facebook Pixel",
+      "FACEBOOK_ID": "FACEBOOK-ID"
+    },
+    "Bing_Ads_Pixel": {
+      "enable":false,
+      "order":6,
+      "name": "Bing/Microsoft Ads Pixel",
+      "BING_ID": "BING-ID"
+    }
+ 
+  },
+   "chat": {
+      "enable":false,
+      "position":"footer_top",
+      "Scheduler": "others",
+      "id": "id_name",
+      "content": "",
+      "zocdoc_content": "65544",
+      "nexhealth_content": "",
+      "clearwave_content": "",
+      "schedule_engine_info":{
+        "initial_message" : "Hello, this is the greeting message.",
+        "logo_url" : "",
+        "title" : "Welcome",
+        "auto_open" : "false",
+        "position" : "right",
+        "auto_open_mobile" : "false",
+        "button_text": "Chat with Us"
+      }
+    },
+    "scheduler": {
+      "enable":false,
+      "position":"footer_top",
+      "Scheduler": "others",
+      "id": "id_name",
+      "content": ""
+    },
+  "Google_Ads_Conversion_Codes": {
+      "enable":false,
+      "order":4,
+      "name": "Google Ads Conversion Codes (for PPC)",
+      "items": [
+        {
+          "page_id": "",
+          "AW_CODE": "AW-xxxxxxxxx",
+          "CONVERSION_CODE": "CONVERSION-CODE"
+        },
+        {
+          "page_id": "",
+          "AW_CODE": "AW-xxxxxxxxx",
+          "CONVERSION_CODE": "CONVERSION-CODE"
+        },
+        {
+          "page_id": "",
+          "AW_CODE": "AW-xxxxxxxxx",
+          "CONVERSION_CODE": "CONVERSION-CODE"
+        }
+      ]
+    },
+   "Hotjar": {
+      "enable":false,
+      "order":7,
+      "id": "XXXXXXXXX"
+    },
+  "custom":{
+    "head_top":[{
+      "enable":false,
+      "order":9,
+      "title":"xyz chat",
+      "page_ids":[],
+      "content":""
+    },
+    {
+      "enable":false,
+      "order":8,
+      "title":"xyz chat2",
+      "page_ids":[],
+      "content":""
+    }],
+    "head_bottom":[{
+        "enable":false,
+        "order":12,
+        "page_ids":[11,33],
+        "title":"xyz chat3",
+        "content":""
+    },{
+        "enable":false,
+        "order":11,
+        "page_ids":[],
+        "title":"scheduleEngine",
+        "content":""
+    }],
+    "footer_top":[{
+     "enable":false,
+        "order":15,
+        "page_ids":[],
+        "title":"Google API",
+        "content":""
+    }],
+    "footer_bottom":[{
+     "enable":false,
+        "order":16,
+        "page_ids":[],
+        "title":"xyz chat3",
+        "content":""
+
+    }]   
+  },
+	"schema": {
+	},
+  "invoca": {
+        "enable": false,
+        "id": null,
+        "name": "Invoca",
+        "invoca_id": ""
+    },
+    "accessibility": {
+      "enable": true,
+      "name": "Accessibility Script",
+      "id": "pWOtoNV6qk"
+    }
+}

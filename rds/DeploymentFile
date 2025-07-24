@@ -1,0 +1,101 @@
+pipeline {
+    agent {
+        label 'rds-dev'
+    }
+
+    environment {
+        CI = 'false'
+    }
+
+    stages {
+        stage('Deploying To Dev Server') {
+            when {
+                expression { env.CHANGE_TARGET == 'dev' }
+            }
+            
+            steps {
+
+                    writeFile file: '.env', text: '''
+                   
+                    WPE_ENV=rdscorepagedev
+                    REMOTE_PATH=wp-content/themes/rds/
+                    SRC_PATH=.
+                    PHP_LINT=TRUE
+                    CACHE_CLEAR=TRUE
+		                  
+	                '''
+               
+                    echo 'Copying files to WP-EngineServer'
+                    sh 'docker pull wpengine/site-deploy'
+                    sh '''docker run --rm \\
+                        -e WPE_SSHG_KEY_PRIVATE="$(cat /home/ec2-user/.ssh/wpengine_ed25519)" \\
+                        --env-file ./.env \\
+                        -v $(pwd):/site \\
+                        --workdir=/site \\
+                        wpengine/site-deploy:latest'''                        
+                        
+                        deleteDir()   
+            }
+        }
+
+        stage('Deploying To Staging Server') {
+            when {
+                expression { env.CHANGE_TARGET == 'stag' }
+            }
+            
+            steps {
+
+                    writeFile file: '.env', text: '''
+                   
+                    WPE_ENV=rdscorepagestg
+                    REMOTE_PATH=wp-content/themes/rds/
+                    SRC_PATH=.
+                    PHP_LINT=TRUE
+                    CACHE_CLEAR=TRUE
+		                  
+	                '''
+               
+                    echo 'Copying files to WP-EngineServer'
+                    sh 'docker pull wpengine/site-deploy'
+                    sh '''docker run --rm \\
+                        -e WPE_SSHG_KEY_PRIVATE="$(cat /home/ec2-user/.ssh/wpengine_ed25519)" \\
+                        --env-file ./.env \\
+                        -v $(pwd):/site \\
+                        --workdir=/site \\
+                        wpengine/site-deploy:latest'''                        
+                        
+                        deleteDir()         
+            }
+        }
+
+         stage('Deploying To Production Server') {
+            when {
+                expression { env.CHANGE_TARGET == 'live' }
+            }
+            
+            steps {
+
+                    writeFile file: '.env', text: '''
+                   
+                    WPE_ENV=rdscorepagebui
+                    REMOTE_PATH=wp-content/themes/rds/
+                    SRC_PATH=.
+                    PHP_LINT=TRUE
+                    CACHE_CLEAR=TRUE
+		                  
+	                '''
+               
+                    echo 'Copying files to WP-EngineServer'
+                    sh 'docker pull wpengine/site-deploy'
+                    sh '''docker run --rm \\
+                        -e WPE_SSHG_KEY_PRIVATE="$(cat /home/ec2-user/.ssh/wpengine_ed25519)" \\
+                        --env-file ./.env \\
+                        -v $(pwd):/site \\
+                        --workdir=/site \\
+                        wpengine/site-deploy:latest'''                        
+                        
+                        deleteDir()         
+            }
+        }
+    }
+}

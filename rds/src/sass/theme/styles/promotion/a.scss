@@ -1,0 +1,43 @@
+.coupon-pagination ,.home-coupon-pagination,.home-coupon-pagination-b,.home-coupon-pagination-c{
+	padding-top: 15px;
+    bottom: 0px !important;
+    padding-bottom: 5px;
+    span.swiper-pagination-bullet {
+	    width: 9px;
+	    height: 9px;
+	    background: $tertiary_color;
+	    opacity: 1;
+	    margin: 0px 6px !important;
+	}
+	span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	    background: $secondary_color;
+	    width: 10px;
+	    height: 10px;
+	}
+}
+
+.home_coupon_next_a,.home_coupon_next_b,.home_coupon_next_c{
+	right:0px !important;
+}
+.home_coupon_prev_a,.home_coupon_prev_b,.home_coupon_prev_c{
+	left:0px !important;
+}
+
+.landing_page .homepage_coupon .coupon_slider {
+    @media screen and (min-width: 991px){
+    	padding-left: 3rem !important;
+    	padding-right: 3rem !important;
+    }
+    @media screen and (max-width: 991px){
+    	padding-left: 1.5rem !important;
+    	padding-right: 1.5rem !important;
+    }
+    position: relative;
+}
+
+
+
+.promotionC_icon{
+	color:$primary_color !important;
+}
+body.elementor-editor-active.modal-open{overflow: auto !important;}
